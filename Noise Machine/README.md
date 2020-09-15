@@ -1,14 +1,14 @@
-### My attempt at an audio noise generator / sleep machine.
+# My attempt at an audio noise generator / sleep machine.
 It's not 'white' or 'pink' or any particular color of noise - the filter stage shapes the output to whatever you feel sounds best. It's designed as a sleep aid to mask other noises.
 
-# Goals:
+### Goals:
 - Run on 5V.
 - Can provide 10 hours runtime on a small rechargeable USB power pack at moderate volume (so, let's say, we need this circuit to operate at < 100mA)
 - Adjustable tone controls
 - 'adequate' power output. A few mW to the speaker is quite sufficient to mask ambient sounds.
 - uses 'jellybean' components that I have on hand
 
-# Design:
+### Design:
 - I settled on an avalanche noise source, running a small current above the breakdown voltage of an NPN be junction. Experimentally, I found that 8-9V is needed for a few of the common transistors I had on hand. I didn't see any significant difference between the few transistors that I tested, but that 12-15V produced much more amplitude.
 - This is an audio device, so I don't need or want RF noise. Negative feedback on Q2 is applied with a 1nF capacitor (C3), to kill the RF as close to the source as possible.
 - I'm running Q2 off of the 15V rail (more like +12V after diode drops etc.). However, Q2 output is only a few mV anyway and so it doesn't exceed the LM386 input. 
