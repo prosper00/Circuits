@@ -448,8 +448,6 @@ Wire Wire Line
 	6950 1950 6950 2700
 Connection ~ 6000 1950
 Wire Wire Line
-	4850 2100 6500 2100
-Wire Wire Line
 	6500 2100 6500 2550
 Connection ~ 6500 2550
 $Comp
@@ -905,4 +903,33 @@ F 3 "~" H 7400 4350 50  0001 C CNN
 	1    7400 4350
 	0    1    1    0   
 $EndComp
+$Comp
+L Device:C CFB2
+U 1 1 5F7EAA43
+P 6500 3850
+F 0 "CFB2" H 6385 3804 50  0000 R CNN
+F 1 "100p" H 6385 3895 50  0000 R CNN
+F 2 "" H 6538 3700 50  0001 C CNN
+F 3 "~" H 6500 3850 50  0001 C CNN
+	1    6500 3850
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GNDS #PWR?
+U 1 1 5F7EB492
+P 6500 4050
+F 0 "#PWR?" H 6500 3800 50  0001 C CNN
+F 1 "GNDS" H 6505 3877 50  0000 C CNN
+F 2 "" H 6500 4050 50  0001 C CNN
+F 3 "" H 6500 4050 50  0001 C CNN
+	1    6500 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6500 4050 6500 4000
+Wire Wire Line
+	4850 2100 6500 2100
+Wire Wire Line
+	6500 3700 6500 3650
+Connection ~ 6500 3650
 $EndSCHEMATC
