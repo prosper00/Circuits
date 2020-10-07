@@ -1,4 +1,4 @@
-# John Audio Tech's EZ amp from here: https://www.youtube.com/watch?v=-Dk14Zag98o&t=983s
+### John Audio Tech's EZ amp from here: https://www.youtube.com/watch?v=-Dk14Zag98o&t=983s
 
 Note: JAT couldn't get this amp to work to his satisfaction, blowing up the output transistors when fed a 10kHz square wave. I'm tweaking his design, see if I can't get it to work. I think these results say that this amplifier can't handle really high bandwith/high frequencies. Something's not switching fast enough. Maybe Q6 and Q7 are not capable of shutting off fast enough, and are both 'on' at the same time at high frequencies. I can't do too much to speed up the transistors, but maybe I can reduce the maximum frequencies that they are exposed to. They really ought to be *fast enough* for audio signals. The amplifier shouldn't blow up with a 10k square wave, but I don't expect it to output such a signal either. Rather than exploding when fed such signals, I'd rather the circuit distorts really HF's.
 
