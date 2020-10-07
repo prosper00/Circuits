@@ -2,6 +2,7 @@
 
 Note: JAT couldn't get this amp to work to his satisfaction, blowing up the output transistors when fed a 10kHz square wave. I'm tweaking his design, see if I can't get it to work. I think these results say that this amplifier can't handle really high bandwith/high frequencies. Something's not switching fast enough. Maybe Q6 and Q7 are not capable of shutting off fast enough, and are both 'on' at the same time at high frequencies. I can't do too much to speed up the transistors, but maybe I can reduce the maximum frequencies that they are exposed to. They really ought to be *fast enough* for audio signals. The amplifier shouldn't blow up with a 10k square wave, but I don't expect it to output such a signal either. Rather than exploding when fed such signals, I'd rather the circuit distorts really HF's.
 
+N.B. JAT used BDW42/47 15A output transistors. I had BDX33/34 10A transistors handy. Although they have a lower peak current handling, the SOA and power dissipation are (relatively) similar. I'll be running my amp at +-20 to 24V, as opposed to JAT's +-28V, though I might try it at 28V and see what happens.
 
 ###
 Rather than building my own darlington output transistors (like JAT), I intend to try the following:
