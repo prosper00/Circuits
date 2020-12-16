@@ -1,0 +1,362 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:Q_NPN_ECB Q?
+U 1 1 5FCE5FF0
+P 4050 2650
+F 0 "Q?" H 4241 2696 50  0000 L CNN
+F 1 "Q_NPN_ECB" H 4241 2605 50  0000 L CNN
+F 2 "" H 4250 2750 50  0001 C CNN
+F 3 "~" H 4050 2650 50  0001 C CNN
+	1    4050 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 5FCE65E2
+P 3150 1800
+F 0 "R?" H 3218 1846 50  0000 L CNN
+F 1 "R_US" H 3218 1755 50  0000 L CNN
+F 2 "" V 3190 1790 50  0001 C CNN
+F 3 "~" H 3150 1800 50  0001 C CNN
+	1    3150 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP1 C?
+U 1 1 5FCE6818
+P 3400 2100
+F 0 "C?" H 3515 2146 50  0000 L CNN
+F 1 "CP1" H 3515 2055 50  0000 L CNN
+F 2 "" H 3400 2100 50  0001 C CNN
+F 3 "~" H 3400 2100 50  0001 C CNN
+	1    3400 2100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:Q_NPN_ECB Q?
+U 1 1 5FCE6E77
+P 3250 2650
+F 0 "Q?" H 3441 2696 50  0000 L CNN
+F 1 "Q_NPN_ECB" H 3441 2605 50  0000 L CNN
+F 2 "" H 3450 2750 50  0001 C CNN
+F 3 "~" H 3250 2650 50  0001 C CNN
+	1    3250 2650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:CP1 C?
+U 1 1 5FCEB862
+P 3900 2100
+F 0 "C?" V 4152 2100 50  0000 C CNN
+F 1 "CP1" V 4061 2100 50  0000 C CNN
+F 2 "" H 3900 2100 50  0001 C CNN
+F 3 "~" H 3900 2100 50  0001 C CNN
+	1    3900 2100
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 5FCEC207
+P 3450 3000
+F 0 "R?" H 3518 3046 50  0000 L CNN
+F 1 "R_US" H 3518 2955 50  0000 L CNN
+F 2 "" V 3490 2990 50  0001 C CNN
+F 3 "~" H 3450 3000 50  0001 C CNN
+	1    3450 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 5FCEC6C3
+P 3850 3000
+F 0 "R?" H 3918 3046 50  0000 L CNN
+F 1 "R_US" H 3918 2955 50  0000 L CNN
+F 2 "" V 3890 2990 50  0001 C CNN
+F 3 "~" H 3850 3000 50  0001 C CNN
+	1    3850 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_NPN_ECB Q?
+U 1 1 5FCECA8E
+P 4800 3350
+F 0 "Q?" V 5128 3350 50  0000 C CNN
+F 1 "Q_NPN_ECB" V 5037 3350 50  0000 C CNN
+F 2 "" H 5000 3450 50  0001 C CNN
+F 3 "~" H 4800 3350 50  0001 C CNN
+	1    4800 3350
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 5FCEE62C
+P 5950 3250
+F 0 "R?" V 5745 3250 50  0000 C CNN
+F 1 "R_US" V 5836 3250 50  0000 C CNN
+F 2 "" V 5990 3240 50  0001 C CNN
+F 3 "~" H 5950 3250 50  0001 C CNN
+	1    5950 3250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 5FCEF236
+P 5950 3600
+F 0 "R?" V 5745 3600 50  0000 C CNN
+F 1 "R_US" V 5836 3600 50  0000 C CNN
+F 2 "" V 5990 3590 50  0001 C CNN
+F 3 "~" H 5950 3600 50  0001 C CNN
+	1    5950 3600
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:Q_NPN_ECB Q?
+U 1 1 5FCEF7F2
+P 4900 4200
+F 0 "Q?" H 5091 4246 50  0000 L CNN
+F 1 "Q_NPN_ECB" H 5091 4155 50  0000 L CNN
+F 2 "" H 5100 4300 50  0001 C CNN
+F 3 "~" H 4900 4200 50  0001 C CNN
+	1    4900 4200
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:CP1 C?
+U 1 1 5FCF0500
+P 4400 3750
+F 0 "C?" H 4285 3796 50  0000 R CNN
+F 1 "CP1" H 4285 3705 50  0000 R CNN
+F 2 "" H 4400 3750 50  0001 C CNN
+F 3 "~" H 4400 3750 50  0001 C CNN
+	1    4400 3750
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 5FCF11D0
+P 5100 3850
+F 0 "R?" H 5032 3804 50  0000 R CNN
+F 1 "R_US" H 5032 3895 50  0000 R CNN
+F 2 "" V 5140 3840 50  0001 C CNN
+F 3 "~" H 5100 3850 50  0001 C CNN
+	1    5100 3850
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:CP1 C?
+U 1 1 5FCF1AC6
+P 5350 3850
+F 0 "C?" H 5235 3896 50  0000 R CNN
+F 1 "CP1" H 5235 3805 50  0000 R CNN
+F 2 "" H 5350 3850 50  0001 C CNN
+F 3 "~" H 5350 3850 50  0001 C CNN
+	1    5350 3850
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:CP1 C?
+U 1 1 5FCF49E3
+P 5700 3850
+F 0 "C?" H 5585 3896 50  0000 R CNN
+F 1 "CP1" H 5585 3805 50  0000 R CNN
+F 2 "" H 5700 3850 50  0001 C CNN
+F 3 "~" H 5700 3850 50  0001 C CNN
+	1    5700 3850
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 5FCF4E32
+P 5100 4500
+F 0 "R?" H 5032 4454 50  0000 R CNN
+F 1 "R_US" H 5032 4545 50  0000 R CNN
+F 2 "" V 5140 4490 50  0001 C CNN
+F 3 "~" H 5100 4500 50  0001 C CNN
+	1    5100 4500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:Speaker LS?
+U 1 1 5FCF5835
+P 5000 2000
+F 0 "LS?" H 5170 1996 50  0000 L CNN
+F 1 "Speaker" H 5170 1905 50  0000 L CNN
+F 2 "" H 5000 1800 50  0001 C CNN
+F 3 "~" H 4990 1950 50  0001 C CNN
+	1    5000 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 5FCF5F4B
+P 4800 1650
+F 0 "R?" H 4868 1696 50  0000 L CNN
+F 1 "R_US" H 4868 1605 50  0000 L CNN
+F 2 "" V 4840 1640 50  0001 C CNN
+F 3 "~" H 4800 1650 50  0001 C CNN
+	1    4800 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3550 2100 3850 2650
+Wire Wire Line
+	3750 2100 3450 2650
+Wire Wire Line
+	3450 2650 3450 2850
+Connection ~ 3450 2650
+Wire Wire Line
+	3850 2650 3850 2850
+Connection ~ 3850 2650
+Wire Wire Line
+	3450 3150 3450 3250
+Wire Wire Line
+	3450 3250 3850 3250
+Wire Wire Line
+	3850 3250 3850 3150
+Wire Wire Line
+	3150 1950 3150 2100
+Wire Wire Line
+	3150 2100 3250 2100
+Wire Wire Line
+	3150 2100 3150 2450
+Connection ~ 3150 2100
+Wire Wire Line
+	4050 2100 4150 2100
+Wire Wire Line
+	4150 2100 4150 2450
+Wire Wire Line
+	3150 2850 3150 3450
+Wire Wire Line
+	3150 3450 4150 3450
+Wire Wire Line
+	4150 3450 4150 2850
+Wire Wire Line
+	3850 3250 4400 3250
+Connection ~ 3850 3250
+Wire Wire Line
+	3150 1650 3150 1350
+Wire Wire Line
+	3150 1350 4800 1350
+Wire Wire Line
+	4800 1350 4800 1500
+Wire Wire Line
+	4800 1800 4800 2000
+Wire Wire Line
+	4150 2100 4800 2100
+Connection ~ 4150 2100
+$Comp
+L Device:Battery BT?
+U 1 1 5FCFBC2A
+P 6350 4450
+F 0 "BT?" H 6458 4496 50  0000 L CNN
+F 1 "Battery" H 6458 4405 50  0000 L CNN
+F 2 "" V 6350 4510 50  0001 C CNN
+F 3 "~" V 6350 4510 50  0001 C CNN
+	1    6350 4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6350 4650 6350 4850
+Wire Wire Line
+	6350 4850 5100 4850
+Wire Wire Line
+	5100 4850 5100 4650
+Wire Wire Line
+	4800 4400 4800 4850
+Wire Wire Line
+	4800 4850 5100 4850
+Connection ~ 5100 4850
+Wire Wire Line
+	5100 4200 5100 4350
+Wire Wire Line
+	5100 4200 5100 4000
+Connection ~ 5100 4200
+Wire Wire Line
+	5100 4000 5350 4000
+Connection ~ 5100 4000
+Wire Wire Line
+	5350 4000 5700 4000
+Connection ~ 5350 4000
+Wire Wire Line
+	5000 3250 5700 3250
+Wire Wire Line
+	4800 4000 4800 3600
+Wire Wire Line
+	4400 3600 4400 3250
+Connection ~ 4400 3250
+Wire Wire Line
+	4400 3250 4600 3250
+Wire Wire Line
+	4400 3900 4400 4850
+Wire Wire Line
+	4400 4850 4800 4850
+Connection ~ 4800 4850
+Wire Wire Line
+	4150 3450 4150 4850
+Wire Wire Line
+	4150 4850 4400 4850
+Connection ~ 4150 3450
+Connection ~ 4400 4850
+Wire Wire Line
+	4800 3600 5100 3600
+Wire Wire Line
+	5100 3600 5100 3700
+Connection ~ 4800 3600
+Wire Wire Line
+	4800 3600 4800 3550
+Wire Wire Line
+	5100 3600 5350 3600
+Wire Wire Line
+	5350 3600 5350 3700
+Connection ~ 5100 3600
+Wire Wire Line
+	5350 3600 5800 3600
+Connection ~ 5350 3600
+Wire Wire Line
+	5700 3700 5700 3250
+Connection ~ 5700 3250
+Wire Wire Line
+	5700 3250 5800 3250
+Wire Wire Line
+	4800 1350 6250 1350
+Connection ~ 4800 1350
+$Comp
+L Switch:SW_DPDT_x2 SW?
+U 1 1 5FD11400
+P 6350 3950
+F 0 "SW?" V 6396 4098 50  0000 L CNN
+F 1 "SW_DPDT_x2" V 6305 4098 50  0000 L CNN
+F 2 "" H 6350 3950 50  0001 C CNN
+F 3 "~" H 6350 3950 50  0001 C CNN
+	1    6350 3950
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	6350 4250 6350 4150
+Wire Wire Line
+	6250 1350 6250 3250
+Wire Wire Line
+	6100 3250 6250 3250
+Connection ~ 6250 3250
+Wire Wire Line
+	6250 3250 6250 3600
+Wire Wire Line
+	6100 3600 6250 3600
+Connection ~ 6250 3600
+Wire Wire Line
+	6250 3600 6250 3750
+$EndSCHEMATC
