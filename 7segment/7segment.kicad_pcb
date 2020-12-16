@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 0)
+    (drawings 1)
     (tracks 482)
     (zones 0)
     (modules 101)
@@ -4064,6 +4064,10 @@
     )
   )
 
+  (gr_text "Dat Clk  SS +5V GND" (at 85.344 118.872) (layer F.SilkS)
+    (effects (font (size 0.8 0.8) (thickness 0.1)))
+  )
+
   (segment (start 90.17 115.57) (end 90.17 116.84) (width 1) (layer F.Cu) (net 1))
   (segment (start 87.63 113.03) (end 90.17 115.57) (width 1) (layer F.Cu) (net 1))
   (via (at 87.63 113.03) (size 1.2) (drill 0.6) (layers F.Cu B.Cu) (net 1))
@@ -4547,7 +4551,7 @@
   (segment (start 148.049999 110.345001) (end 167.784999 110.345001) (width 0.25) (layer F.Cu) (net 100) (tstamp 5FDB0A4D))
   (segment (start 147.464999 108.464977) (end 147.464999 109.760001) (width 0.25) (layer F.Cu) (net 100) (tstamp 5FDB0A50))
 
-  (zone (net 1) (net_name GND) (layer B.Cu) (tstamp 5FDA85ED) (hatch edge 0.508)
+  (zone (net 1) (net_name GND) (layer B.Cu) (tstamp 5FDA864A) (hatch edge 0.508)
     (connect_pads yes (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
