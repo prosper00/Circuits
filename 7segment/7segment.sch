@@ -1622,28 +1622,6 @@ Wire Wire Line
 	5500 6850 5400 6850
 Wire Wire Line
 	5100 6850 5000 6850
-$Comp
-L Device:R_US R32
-U 1 1 5FE2F55B
-P 4850 7200
-F 0 "R32" V 4645 7200 50  0000 C CNN
-F 1 "2k7" V 4736 7200 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 4890 7190 50  0001 C CNN
-F 3 "~" H 4850 7200 50  0001 C CNN
-	1    4850 7200
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:LED D60
-U 1 1 5FE2F561
-P 5650 7200
-F 0 "D60" H 5643 7417 50  0000 C CNN
-F 1 "LED" H 5643 7326 50  0000 C CNN
-F 2 "LED_THT:LED_D3.0mm" H 5650 7200 50  0001 C CNN
-F 3 "~" H 5650 7200 50  0001 C CNN
-	1    5650 7200
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5800 5100 5850 5100
 Wire Wire Line
@@ -1681,15 +1659,7 @@ Wire Wire Line
 Wire Wire Line
 	6100 5350 6250 5350
 Wire Wire Line
-	5800 7200 6150 7200
-Wire Wire Line
-	6150 7200 6150 5450
-Wire Wire Line
 	6150 5450 6250 5450
-Wire Wire Line
-	4700 7200 4600 7200
-Wire Wire Line
-	4600 7200 4600 6850
 Wire Wire Line
 	4600 6850 4700 6850
 Wire Wire Line
@@ -1723,14 +1693,9 @@ Wire Wire Line
 	4600 4750 4700 4750
 Connection ~ 4600 5100
 Wire Wire Line
-	4600 7200 4600 7500
-Connection ~ 4600 7200
-Wire Wire Line
 	6650 5850 6650 5900
 Wire Wire Line
 	6650 4550 6650 4500
-Wire Wire Line
-	5000 7200 5500 7200
 $Comp
 L power:+5V #PWR011
 U 1 1 5FE2F596
@@ -1946,4 +1911,6 @@ Text GLabel 7150 4750 2    50   Input ~ 0
 D4
 Wire Wire Line
 	6250 2350 6250 2500
+Wire Wire Line
+	4600 6850 4600 7500
 $EndSCHEMATC
