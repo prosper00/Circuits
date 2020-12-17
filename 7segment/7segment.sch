@@ -392,17 +392,6 @@ Wire Wire Line
 	3000 2550 3000 2600
 Wire Wire Line
 	3000 1250 3000 1200
-$Comp
-L Connector:Conn_01x05_Male J1
-U 1 1 5FDC99D2
-P 9050 3350
-F 0 "J1" H 9022 3282 50  0000 R CNN
-F 1 "Conn_01x05_Male" H 9022 3373 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 9050 3350 50  0001 C CNN
-F 3 "~" H 9050 3350 50  0001 C CNN
-	1    9050 3350
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	1350 3900 1850 3900
 $Comp
@@ -1913,4 +1902,72 @@ Wire Wire Line
 	6250 2350 6250 2500
 Wire Wire Line
 	4600 6850 4600 7500
+$Comp
+L power:GND #PWR0101
+U 1 1 5FE9BDCB
+P 8750 4700
+F 0 "#PWR0101" H 8750 4450 50  0001 C CNN
+F 1 "GND" H 8755 4527 50  0000 C CNN
+F 2 "" H 8750 4700 50  0001 C CNN
+F 3 "" H 8750 4700 50  0001 C CNN
+	1    8750 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0102
+U 1 1 5FE9BDD1
+P 8200 3950
+F 0 "#PWR0102" H 8200 3800 50  0001 C CNN
+F 1 "+5V" H 8215 4123 50  0000 C CNN
+F 2 "" H 8200 3950 50  0001 C CNN
+F 3 "" H 8200 3950 50  0001 C CNN
+	1    8200 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8750 4700 8750 4550
+Wire Wire Line
+	8750 4550 8850 4550
+Wire Wire Line
+	8200 3950 8200 4450
+Wire Wire Line
+	8200 4450 8850 4450
+Wire Wire Line
+	8600 4150 8850 4150
+Text GLabel 8600 4250 0    50   Input ~ 0
+CLK
+Text GLabel 8600 4350 0    50   Input ~ 0
+SS
+Wire Wire Line
+	8600 4250 8850 4250
+Wire Wire Line
+	8600 4350 8850 4350
+Text GLabel 6250 5800 3    50   Input ~ 0
+OUT
+Text GLabel 8600 4150 0    50   Input ~ 0
+OUT
+Wire Wire Line
+	6250 5650 6250 5800
+$Comp
+L Connector:Conn_01x05_Male J2
+U 1 1 5FE9BDC4
+P 9050 4350
+F 0 "J2" H 9022 4282 50  0000 R CNN
+F 1 "Conn_01x05_Male" H 9022 4373 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 9050 4350 50  0001 C CNN
+F 3 "~" H 9050 4350 50  0001 C CNN
+	1    9050 4350
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x05_Male J1
+U 1 1 5FDC99D2
+P 9050 3350
+F 0 "J1" H 9022 3282 50  0000 R CNN
+F 1 "Conn_01x05_Male" H 9022 3373 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 9050 3350 50  0001 C CNN
+F 3 "~" H 9050 3350 50  0001 C CNN
+	1    9050 3350
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC
