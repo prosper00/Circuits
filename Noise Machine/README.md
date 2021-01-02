@@ -1,6 +1,12 @@
 # My attempt at an audio noise generator / sleep machine.
 It's not 'white' or 'pink' or any particular color of noise - the filter stage shapes the output to whatever you feel sounds best. It's designed as a sleep aid to mask other noises.
 
+![1](20200918_160958.jpg?raw=true "1")
+![2](20200918_160840.jpg?raw=true "2")
+![3](20200915_132722.jpg?raw=true "3")
+![4](20200915_132617.jpg?raw=true "4")
+![5](20200911_161053.jpg?raw=true "5")
+
 ### Goals:
 - Run on 5V.
 - Can provide 10 hours runtime on a small rechargeable USB power pack at moderate volume (so, let's say, we need this circuit to operate at < 100mA)
