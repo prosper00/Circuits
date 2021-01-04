@@ -3,7 +3,7 @@
   (general
     (thickness 1.6)
     (drawings 10)
-    (tracks 473)
+    (tracks 472)
     (zones 0)
     (modules 100)
     (nets 101)
@@ -4451,7 +4451,6 @@
   (segment (start 90.424 115.824) (end 92.456 113.792) (width 0.25) (layer F.Cu) (net 93))
   (segment (start 92.456 109.474) (end 92.71 109.22) (width 0.25) (layer F.Cu) (net 93))
   (segment (start 92.456 113.792) (end 92.456 109.474) (width 0.25) (layer F.Cu) (net 93))
-  (segment (start 93.98 113.792) (end 93.98 113.792) (width 0.25) (layer F.Cu) (net 93) (tstamp 5FDBD048))
   (segment (start 87.884 115.824) (end 84.836 112.776) (width 0.25) (layer F.Cu) (net 94))
   (segment (start 84.836 109.474) (end 85.09 109.22) (width 0.25) (layer F.Cu) (net 94))
   (segment (start 84.836 112.776) (end 84.836 109.474) (width 0.25) (layer F.Cu) (net 94))
@@ -4533,7 +4532,7 @@
   (segment (start 156.21 110.998) (end 162.56 117.348) (width 0.25) (layer B.Cu) (net 100))
   (segment (start 156.21 109.22) (end 156.21 110.998) (width 0.25) (layer B.Cu) (net 100))
 
-  (zone (net 1) (net_name GND) (layer B.Cu) (tstamp 0) (hatch edge 0.508)
+  (zone (net 1) (net_name GND) (layer B.Cu) (tstamp 5FDC37A2) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
