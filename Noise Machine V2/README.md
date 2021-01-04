@@ -5,8 +5,8 @@ this is built on an ST8F103F3 'blue' board (that are <$1 on ebay). Sound out is 
 Overall, this is a more expensive build (than analog) by a factor of 10, but still only about $3. It was also MUCH quicker to build, at maybe 1hr for assembly and coding.
 
 TODOs:
--better documentation
--fix ugly code
--finish implementing tone control
--draw schematics
--analog filtering between uC and amplifier?
+ - better documentation
+ - fix ugly code
+ - finish implementing tone control
+ - draw schematics
+ - analog filtering between uC and amplifier?
