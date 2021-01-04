@@ -1,0 +1,286 @@
+ASxxxx Assembler V02.00 + NoICE + SDCC mods  (STMicroelectronics STM8), page 1.
+Hexadecimal [24-Bits]
+
+Symbol Table
+
+    .__.$$$.                                                    =  002710 L
+    .__.ABS.                                                    =  000000 G
+    .__.CPU.                                                    =  000000 L
+    .__.H$L.                                                    =  000001 L
+  9 A$delay$101                                                    000024 GR
+  9 A$delay$105                                                    000028 GR
+  9 A$delay$106                                                    00002B GR
+  9 A$delay$107                                                    00002D GR
+  9 A$delay$111                                                    000030 GR
+  9 A$delay$115                                                    000031 GR
+  9 A$delay$123                                                    000035 GR
+  9 A$delay$134                                                    000036 GR
+  9 A$delay$135                                                    000039 GR
+  9 A$delay$136                                                    00003D GR
+  9 A$delay$137                                                    00003E GR
+  9 A$delay$138                                                    000040 GR
+  9 A$delay$140                                                    000042 GR
+  9 A$delay$141                                                    000045 GR
+  9 A$delay$145                                                    000049 GR
+  9 A$delay$153                                                    00004D GR
+  9 A$delay$166                                                    00004E GR
+  9 A$delay$168                                                    00004F GR
+  9 A$delay$169                                                    000051 GR
+  9 A$delay$170                                                    000052 GR
+  9 A$delay$171                                                    000054 GR
+  9 A$delay$172                                                    000055 GR
+  9 A$delay$175                                                    000057 GR
+  9 A$delay$177                                                    000058 GR
+  9 A$delay$179                                                    00005A GR
+  9 A$delay$181                                                    00005C GR
+  9 A$delay$182                                                    00005F GR
+  9 A$delay$184                                                    000060 GR
+  9 A$delay$188                                                    000061 GR
+  9 A$delay$189                                                    000062 GR
+  9 A$delay$195                                                    000064 GR
+  9 A$delay$204                                                    000065 GR
+  9 A$delay$209                                                    000067 GR
+  9 A$delay$210                                                    00006A GR
+  9 A$delay$214                                                    00006C GR
+  9 A$delay$215                                                    00006E GR
+  9 A$delay$216                                                    000071 GR
+  9 A$delay$220                                                    000073 GR
+  9 A$delay$221                                                    000077 GR
+  9 A$delay$224                                                    000079 GR
+  9 A$delay$225                                                    00007D GR
+  9 A$delay$226                                                    00007E GR
+  9 A$delay$230                                                    000080 GR
+  9 A$delay$231                                                    000083 GR
+  9 A$delay$232                                                    000086 GR
+  9 A$delay$233                                                    000088 GR
+  9 A$delay$241                                                    00008A GR
+  9 A$delay$246                                                    00008D GR
+  9 A$delay$247                                                    00008F GR
+  9 A$delay$251                                                    000091 GR
+  9 A$delay$255                                                    000093 GR
+ASxxxx Assembler V02.00 + NoICE + SDCC mods  (STMicroelectronics STM8), page 2.
+Hexadecimal [24-Bits]
+
+Symbol Table
+
+  9 A$delay$266                                                    000094 GR
+  9 A$delay$267                                                    000097 GR
+  9 A$delay$268                                                    00009B GR
+  9 A$delay$269                                                    00009D GR
+  9 A$delay$270                                                    00009E GR
+  9 A$delay$271                                                    0000A0 GR
+  9 A$delay$276                                                    0000A1 GR
+  9 A$delay$285                                                    0000A2 GR
+  9 A$delay$289                                                    0000A4 GR
+  9 A$delay$290                                                    0000A7 GR
+  9 A$delay$292                                                    0000A8 GR
+  9 A$delay$293                                                    0000AB GR
+  9 A$delay$295                                                    0000AC GR
+  9 A$delay$297                                                    0000AE GR
+  9 A$delay$298                                                    0000AF GR
+  9 A$delay$300                                                    0000B0 GR
+  9 A$delay$304                                                    0000B2 GR
+  9 A$delay$305                                                    0000B5 GR
+  9 A$delay$307                                                    0000B7 GR
+  9 A$delay$309                                                    0000B9 GR
+  9 A$delay$314                                                    0000BC GR
+  9 A$delay$315                                                    0000BD GR
+  9 A$delay$316                                                    0000BF GR
+  9 A$delay$317                                                    0000C1 GR
+  9 A$delay$318                                                    0000C2 GR
+  9 A$delay$319                                                    0000C5 GR
+  9 A$delay$320                                                    0000C7 GR
+  9 A$delay$321                                                    0000C9 GR
+  9 A$delay$322                                                    0000CB GR
+  9 A$delay$323                                                    0000CD GR
+  9 A$delay$327                                                    0000CF GR
+  9 A$delay$331                                                    0000D1 GR
+  9 A$delay$68                                                     000000 GR
+  9 A$delay$73                                                     000004 GR
+  9 A$delay$76                                                     000008 GR
+  9 A$delay$79                                                     00000C GR
+  9 A$delay$82                                                     000010 GR
+  9 A$delay$85                                                     000014 GR
+  9 A$delay$88                                                     000018 GR
+  9 A$delay$93                                                     00001C GR
+  9 A$delay$96                                                     000020 GR
+  8 Fdelay$__xinit_tick$0_0$0                                   =  000000 GR
+  2 G$tick$0_0$0                                                =  000000 GR
+ 10 Ldebug_CIE0_end                                                000012 R
+ 10 Ldebug_CIE0_start                                              000004 R
+ 10 Ldebug_CIE1_end                                                000073 R
+ 10 Ldebug_CIE1_start                                              000065 R
+ 10 Ldebug_CIE2_end                                                00009C R
+ 10 Ldebug_CIE2_start                                              00008E R
+ 10 Ldebug_CIE3_end                                                0000D3 R
+ 10 Ldebug_CIE3_start                                              0000C5 R
+ 10 Ldebug_CIE4_end                                                00011F R
+ 10 Ldebug_CIE4_start                                              000111 R
+ 10 Ldebug_CIE5_end                                                000148 R
+ 10 Ldebug_CIE5_start                                              00013A R
+ASxxxx Assembler V02.00 + NoICE + SDCC mods  (STMicroelectronics STM8), page 3.
+Hexadecimal [24-Bits]
+
+Symbol Table
+
+  D Ldebug_abbrev                                                  000000 R
+  E Ldebug_info_end                                                000439 R
+  E Ldebug_info_start                                              000004 R
+  B Ldebug_line_end                                                000239 R
+  B Ldebug_line_start                                              000004 R
+  B Ldebug_line_stmt                                               0000D0 R
+  C Ldebug_loc_start                                               000000 R
+  F Ldebug_pubnames_end                                            000077 R
+  F Ldebug_pubnames_start                                          000004 R
+  7 Ldelay.AWU_Init$APR_Array$1_0$122                           =  000000 GR
+  7 Ldelay.AWU_Init$TBR_Array$1_0$122                           =  000011 GR
+  9 Sdelay$TIM4_Config$0                                        =  000000 GR
+  9 Sdelay$TIM4_Config$1                                        =  000000 GR
+  9 Sdelay$TIM4_Config$10                                       =  000018 GR
+  9 Sdelay$TIM4_Config$11                                       =  00001C GR
+  9 Sdelay$TIM4_Config$12                                       =  00001C GR
+  9 Sdelay$TIM4_Config$13                                       =  000020 GR
+  9 Sdelay$TIM4_Config$14                                       =  000024 GR
+  9 Sdelay$TIM4_Config$15                                       =  000024 GR
+  9 Sdelay$TIM4_Config$16                                       =  000028 GR
+  9 Sdelay$TIM4_Config$17                                       =  000028 GR
+  9 Sdelay$TIM4_Config$18                                       =  000030 GR
+  9 Sdelay$TIM4_Config$19                                       =  000030 GR
+  9 Sdelay$TIM4_Config$2                                        =  000000 GR
+  9 Sdelay$TIM4_Config$20                                       =  000031 GR
+  9 Sdelay$TIM4_Config$21                                       =  000031 GR
+  9 Sdelay$TIM4_Config$22                                       =  000035 GR
+  9 Sdelay$TIM4_Config$23                                       =  000035 GR
+  9 Sdelay$TIM4_Config$24                                       =  000035 GR
+  9 Sdelay$TIM4_Config$25                                       =  000035 GR
+  9 Sdelay$TIM4_Config$26                                       =  000036 GR
+  9 Sdelay$TIM4_Config$3                                        =  000000 GR
+  9 Sdelay$TIM4_Config$4                                        =  000004 GR
+  9 Sdelay$TIM4_Config$5                                        =  000004 GR
+  9 Sdelay$TIM4_Config$6                                        =  000008 GR
+  9 Sdelay$TIM4_Config$7                                        =  00000C GR
+  9 Sdelay$TIM4_Config$8                                        =  000010 GR
+  9 Sdelay$TIM4_Config$9                                        =  000014 GR
+  9 Sdelay$TIM4_UPD_OVF_IRQHandler$27                           =  000036 GR
+  9 Sdelay$TIM4_UPD_OVF_IRQHandler$28                           =  000036 GR
+  9 Sdelay$TIM4_UPD_OVF_IRQHandler$29                           =  000036 GR
+  9 Sdelay$TIM4_UPD_OVF_IRQHandler$30                           =  000049 GR
+  9 Sdelay$TIM4_UPD_OVF_IRQHandler$31                           =  000049 GR
+  9 Sdelay$TIM4_UPD_OVF_IRQHandler$32                           =  00004D GR
+  9 Sdelay$TIM4_UPD_OVF_IRQHandler$33                           =  00004D GR
+  9 Sdelay$TIM4_UPD_OVF_IRQHandler$34                           =  00004D GR
+  9 Sdelay$TIM4_UPD_OVF_IRQHandler$35                           =  00004D GR
+  9 Sdelay$TIM4_UPD_OVF_IRQHandler$36                           =  00004E GR
+  9 Sdelay$delay_ms$37                                          =  00004E GR
+  9 Sdelay$delay_ms$38                                          =  00004E GR
+  9 Sdelay$delay_ms$39                                          =  00004E GR
+  9 Sdelay$delay_ms$40                                          =  00004E GR
+  9 Sdelay$delay_ms$41                                          =  00004E GR
+  9 Sdelay$delay_ms$42                                          =  000057 GR
+  9 Sdelay$delay_ms$43                                          =  000058 GR
+ASxxxx Assembler V02.00 + NoICE + SDCC mods  (STMicroelectronics STM8), page 4.
+Hexadecimal [24-Bits]
+
+Symbol Table
+
+  9 Sdelay$delay_ms$44                                          =  00005A GR
+  9 Sdelay$delay_ms$45                                          =  00005C GR
+  9 Sdelay$delay_ms$46                                          =  000060 GR
+  9 Sdelay$delay_ms$47                                          =  000061 GR
+  9 Sdelay$delay_ms$48                                          =  000061 GR
+  9 Sdelay$delay_ms$49                                          =  000064 GR
+  9 Sdelay$delay_ms$50                                          =  000064 GR
+  9 Sdelay$delay_ms$51                                          =  000065 GR
+  9 Sdelay$delay_us$52                                          =  000065 GR
+  9 Sdelay$delay_us$53                                          =  000065 GR
+  9 Sdelay$delay_us$54                                          =  000067 GR
+  9 Sdelay$delay_us$55                                          =  000067 GR
+  9 Sdelay$delay_us$56                                          =  000067 GR
+  9 Sdelay$delay_us$57                                          =  00006C GR
+  9 Sdelay$delay_us$58                                          =  00006C GR
+  9 Sdelay$delay_us$59                                          =  000073 GR
+  9 Sdelay$delay_us$60                                          =  000073 GR
+  9 Sdelay$delay_us$61                                          =  000079 GR
+  9 Sdelay$delay_us$62                                          =  000080 GR
+  9 Sdelay$delay_us$63                                          =  00008A GR
+  9 Sdelay$delay_us$64                                          =  00008A GR
+  9 Sdelay$delay_us$65                                          =  00008A GR
+  9 Sdelay$delay_us$66                                          =  00008A GR
+  9 Sdelay$delay_us$67                                          =  00008D GR
+  9 Sdelay$delay_us$68                                          =  00008D GR
+  9 Sdelay$delay_us$69                                          =  000091 GR
+  9 Sdelay$delay_us$70                                          =  000091 GR
+  9 Sdelay$delay_us$71                                          =  000093 GR
+  9 Sdelay$delay_us$72                                          =  000093 GR
+  9 Sdelay$delay_us$73                                          =  000094 GR
+  9 Sdelay$micros$80                                            =  0000A2 GR
+  9 Sdelay$micros$81                                            =  0000A2 GR
+  9 Sdelay$micros$82                                            =  0000A4 GR
+  9 Sdelay$micros$83                                            =  0000A4 GR
+  9 Sdelay$micros$84                                            =  0000A8 GR
+  9 Sdelay$micros$85                                            =  0000AC GR
+  9 Sdelay$micros$86                                            =  0000AE GR
+  9 Sdelay$micros$87                                            =  0000B0 GR
+  9 Sdelay$micros$88                                            =  0000B2 GR
+  9 Sdelay$micros$89                                            =  0000B2 GR
+  9 Sdelay$micros$90                                            =  0000B7 GR
+  9 Sdelay$micros$91                                            =  0000B9 GR
+  9 Sdelay$micros$92                                            =  0000BC GR
+  9 Sdelay$micros$93                                            =  0000BC GR
+  9 Sdelay$micros$94                                            =  0000CF GR
+  9 Sdelay$micros$95                                            =  0000CF GR
+  9 Sdelay$micros$96                                            =  0000D1 GR
+  9 Sdelay$micros$97                                            =  0000D1 GR
+  9 Sdelay$micros$98                                            =  0000D2 GR
+  9 Sdelay$millis$74                                            =  000094 GR
+  9 Sdelay$millis$75                                            =  000094 GR
+  9 Sdelay$millis$76                                            =  000094 GR
+  9 Sdelay$millis$77                                            =  0000A1 GR
+  9 Sdelay$millis$78                                            =  0000A1 GR
+  9 Sdelay$millis$79                                            =  0000A2 GR
+ASxxxx Assembler V02.00 + NoICE + SDCC mods  (STMicroelectronics STM8), page 5.
+Hexadecimal [24-Bits]
+
+Symbol Table
+
+  9 XG$TIM4_Config$0$0                                          =  000035 GR
+  9 XG$TIM4_UPD_OVF_IRQHandler$0$0                              =  00004D GR
+  9 XG$delay_ms$0$0                                             =  000064 GR
+  9 XG$delay_us$0$0                                             =  000093 GR
+  9 XG$micros$0$0                                               =  0000D1 GR
+  9 XG$millis$0$0                                               =  0000A1 GR
+  7 _AWU_Init_APR_Array_65536_122                                  000000 R
+  7 _AWU_Init_TBR_Array_65536_122                                  000011 R
+  9 _TIM4_Config                                                   000000 GR
+  9 _TIM4_UPD_OVF_IRQHandler                                       000036 GR
+    __mullong                                                      ****** GX
+  8 __xinit__tick                                                  000000 R
+  9 _delay_ms                                                      00004E GR
+  9 _delay_us                                                      000065 GR
+  9 _micros                                                        0000A2 GR
+  9 _millis                                                        000094 GR
+  2 _tick                                                          000000 GR
+
+ASxxxx Assembler V02.00 + NoICE + SDCC mods  (STMicroelectronics STM8), page 6.
+Hexadecimal [24-Bits]
+
+Area Table
+
+   0 _CODE                                      size      0   flags    0
+   1 DATA                                       size      0   flags    0
+   2 INITIALIZED                                size      4   flags    0
+   3 DABS                                       size      0   flags    8
+   4 HOME                                       size      0   flags    0
+   5 GSINIT                                     size      0   flags    0
+   6 GSFINAL                                    size      0   flags    0
+   7 CONST                                      size     22   flags    0
+   8 INITIALIZER                                size      4   flags    0
+   9 CODE                                       size     D2   flags    0
+   A CABS                                       size      0   flags    8
+   B .debug_line                                size    239   flags  100
+   C .debug_loc                                 size    12C   flags  100
+   D .debug_abbrev                              size     C0   flags  100
+   E .debug_info                                size    439   flags  100
+   F .debug_pubnames                            size     77   flags  100
+  10 .debug_frame                               size    15F   flags  100
+

@@ -1,0 +1,691 @@
+ASxxxx Linker V03.00 + NoICE + sdld,  page 1.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00000000  .__.ABS.                           
+     00000000  l_CABS                          
+     00000000  l_DABS                          
+     00000000  l__CODE                         
+     00000000  s_.debug_abbrev                 
+     00000000  s_.debug_frame                  
+     00000000  s_.debug_info                   
+     00000000  s_.debug_line                   
+     00000000  s_.debug_loc                    
+     00000000  s_.debug_pubnames               
+     00000000  s_CABS                          
+     00000000  s_DABS                          
+     00000000  s__CODE                         
+     00000001  l_SSEG                          
+     00000001  s_DATA                          
+     00000003  l_GSFINAL                       
+     00000004  l_DATA                          
+     00000005  s_INITIALIZED                   
+     00000008  l_INITIALIZED                   
+     00000008  l_INITIALIZER                   
+     0000001A  l_GSINIT                        
+     00000044  l_CONST                         
+     0000006B  l_HOME                          
+     000000CE  l_.debug_pubnames               
+     0000017F  l_.debug_abbrev                 
+     000001AC  l_.debug_loc                    
+     0000021F  l_.debug_frame                  
+     00000224  l_CODE                          
+     00000417  l_.debug_line                   
+     000007D5  l_.debug_info                   
+     00008000  s_HOME                          
+     0000806B  s_GSINIT                        
+     00008085  s_GSFINAL                       
+     00008088  s_CONST                         
+     000080CC  s_INITIALIZER                   
+     000080D4  s_CODE                          
+     000082F8  s_SSEG                          
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 2.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+DATA                                00000001    00000004 =           4. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00000001  G$lastClick$0_0$0                  main
+     00000001  _lastClick                         main
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 3.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+INITIALIZED                         00000005    00000008 =           8. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00000005  G$tick$0_0$0                       delay
+     00000005  _tick                              delay
+     00000009  G$lfsr$0_0$0                       main
+     00000009  _lfsr                              main
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 4.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+HOME                                00008000    0000006B =         107. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00008000  A$main$58                          main
+     00008004  A$main$59                          main
+     00008008  A$main$60                          main
+     0000800C  A$main$61                          main
+     00008010  A$main$62                          main
+     00008014  A$main$63                          main
+     00008018  A$main$64                          main
+     0000801C  A$main$65                          main
+     00008020  A$main$66                          main
+     00008024  A$main$67                          main
+     00008028  A$main$68                          main
+     0000802C  A$main$69                          main
+     00008030  A$main$70                          main
+     00008034  A$main$71                          main
+     00008038  A$main$72                          main
+     0000803C  A$main$73                          main
+     00008040  A$main$74                          main
+     00008044  A$main$75                          main
+     00008048  A$main$76                          main
+     0000804C  A$main$77                          main
+     00008050  A$main$78                          main
+     00008054  A$main$79                          main
+     00008058  A$main$80                          main
+     0000805C  A$main$81                          main
+     00008060  A$main$82                          main
+     00008064  A$main$83                          main
+     00008068  A$main$117                         main
+ASxxxx Linker V03.00 + NoICE + sdld,  page 5.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+GSINIT                              0000806B    0000001A =          26. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     0000806B  A$main$93                          main
+     0000806E  A$main$94                          main
+     00008070  A$main$96                          main
+     00008074  A$main$97                          main
+     00008075  A$main$98                          main
+     00008077  A$main$100                         main
+     0000807A  A$main$101                         main
+     0000807C  A$main$103                         main
+     0000807F  A$main$104                         main
+     00008082  A$main$105                         main
+     00008083  A$main$106                         main
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 6.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+GSFINAL                             00008085    00000003 =           3. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00008085  A$main$110                         main
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 7.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CONST                               00008088    00000044 =          68. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00008088  Ldelay.AWU_Init$APR_Array$1_0$12   delay
+     00008099  Ldelay.AWU_Init$TBR_Array$1_0$12   delay
+     000080AA  Lmain.AWU_Init$APR_Array$1_0$122   main
+     000080BB  Lmain.AWU_Init$TBR_Array$1_0$122   main
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 8.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+INITIALIZER                         000080CC    00000008 =           8. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     000080CC  Fdelay$__xinit_tick$0_0$0          delay
+     000080D0  Fmain$__xinit_lfsr$0_0$0           main
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 9.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CODE                                000080D4    00000224 =         548. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     000080D4  A$delay$68                         delay
+     000080D4  Sdelay$TIM4_Config$0               delay
+     000080D4  Sdelay$TIM4_Config$1               delay
+     000080D4  Sdelay$TIM4_Config$2               delay
+     000080D4  Sdelay$TIM4_Config$3               delay
+     000080D4  _TIM4_Config                       delay
+     000080D8  A$delay$73                         delay
+     000080D8  Sdelay$TIM4_Config$4               delay
+     000080D8  Sdelay$TIM4_Config$5               delay
+     000080DC  A$delay$76                         delay
+     000080DC  Sdelay$TIM4_Config$6               delay
+     000080E0  A$delay$79                         delay
+     000080E0  Sdelay$TIM4_Config$7               delay
+     000080E4  A$delay$82                         delay
+     000080E4  Sdelay$TIM4_Config$8               delay
+     000080E8  A$delay$85                         delay
+     000080E8  Sdelay$TIM4_Config$9               delay
+     000080EC  A$delay$88                         delay
+     000080EC  Sdelay$TIM4_Config$10              delay
+     000080F0  A$delay$93                         delay
+     000080F0  Sdelay$TIM4_Config$11              delay
+     000080F0  Sdelay$TIM4_Config$12              delay
+     000080F4  A$delay$96                         delay
+     000080F4  Sdelay$TIM4_Config$13              delay
+     000080F8  A$delay$101                        delay
+     000080F8  Sdelay$TIM4_Config$14              delay
+     000080F8  Sdelay$TIM4_Config$15              delay
+     000080FC  A$delay$105                        delay
+     000080FC  Sdelay$TIM4_Config$16              delay
+     000080FC  Sdelay$TIM4_Config$17              delay
+     000080FF  A$delay$106                        delay
+     00008101  A$delay$107                        delay
+     00008104  A$delay$111                        delay
+     00008104  Sdelay$TIM4_Config$18              delay
+     00008104  Sdelay$TIM4_Config$19              delay
+     00008105  A$delay$115                        delay
+     00008105  Sdelay$TIM4_Config$20              delay
+     00008105  Sdelay$TIM4_Config$21              delay
+     00008109  A$delay$123                        delay
+     00008109  Sdelay$TIM4_Config$22              delay
+     00008109  Sdelay$TIM4_Config$23              delay
+     00008109  Sdelay$TIM4_Config$24              delay
+     00008109  Sdelay$TIM4_Config$25              delay
+     00008109  XG$TIM4_Config$0$0                 delay
+     0000810A  A$delay$134                        delay
+     0000810A  Sdelay$TIM4_Config$26              delay
+     0000810A  Sdelay$TIM4_UPD_OVF_IRQHandler$2   delay
+     0000810A  Sdelay$TIM4_UPD_OVF_IRQHandler$2   delay
+     0000810A  Sdelay$TIM4_UPD_OVF_IRQHandler$2   delay
+     0000810A  _TIM4_UPD_OVF_IRQHandler           delay
+ASxxxx Linker V03.00 + NoICE + sdld,  page 10.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CODE                                000080D4    00000224 =         548. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     0000810D  A$delay$135                        delay
+     00008111  A$delay$136                        delay
+     00008112  A$delay$137                        delay
+     00008114  A$delay$138                        delay
+     00008116  A$delay$140                        delay
+     00008119  A$delay$141                        delay
+     0000811D  A$delay$145                        delay
+     0000811D  Sdelay$TIM4_UPD_OVF_IRQHandler$3   delay
+     0000811D  Sdelay$TIM4_UPD_OVF_IRQHandler$3   delay
+     00008121  A$delay$153                        delay
+     00008121  Sdelay$TIM4_UPD_OVF_IRQHandler$3   delay
+     00008121  Sdelay$TIM4_UPD_OVF_IRQHandler$3   delay
+     00008121  Sdelay$TIM4_UPD_OVF_IRQHandler$3   delay
+     00008121  Sdelay$TIM4_UPD_OVF_IRQHandler$3   delay
+     00008121  XG$TIM4_UPD_OVF_IRQHandler$0$0     delay
+     00008122  A$delay$166                        delay
+     00008122  Sdelay$TIM4_UPD_OVF_IRQHandler$3   delay
+     00008122  Sdelay$delay_ms$37                 delay
+     00008122  Sdelay$delay_ms$38                 delay
+     00008122  Sdelay$delay_ms$39                 delay
+     00008122  Sdelay$delay_ms$40                 delay
+     00008122  Sdelay$delay_ms$41                 delay
+     00008122  _delay_ms                          delay
+     00008123  A$delay$168                        delay
+     00008125  A$delay$169                        delay
+     00008126  A$delay$170                        delay
+     00008128  A$delay$171                        delay
+     00008129  A$delay$172                        delay
+     0000812B  A$delay$175                        delay
+     0000812B  Sdelay$delay_ms$42                 delay
+     0000812C  A$delay$177                        delay
+     0000812C  Sdelay$delay_ms$43                 delay
+     0000812E  A$delay$179                        delay
+     0000812E  Sdelay$delay_ms$44                 delay
+     00008130  A$delay$181                        delay
+     00008130  Sdelay$delay_ms$45                 delay
+     00008133  A$delay$182                        delay
+     00008134  A$delay$184                        delay
+     00008134  Sdelay$delay_ms$46                 delay
+     00008135  A$delay$188                        delay
+     00008135  Sdelay$delay_ms$47                 delay
+     00008135  Sdelay$delay_ms$48                 delay
+     00008136  A$delay$189                        delay
+     00008138  A$delay$195                        delay
+     00008138  Sdelay$delay_ms$49                 delay
+     00008138  Sdelay$delay_ms$50                 delay
+     00008138  XG$delay_ms$0$0                    delay
+     00008139  A$delay$204                        delay
+     00008139  Sdelay$delay_ms$51                 delay
+     00008139  Sdelay$delay_us$52                 delay
+     00008139  Sdelay$delay_us$53                 delay
+ASxxxx Linker V03.00 + NoICE + sdld,  page 11.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CODE                                000080D4    00000224 =         548. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00008139  _delay_us                          delay
+     0000813B  A$delay$209                        delay
+     0000813B  Sdelay$delay_us$54                 delay
+     0000813B  Sdelay$delay_us$55                 delay
+     0000813B  Sdelay$delay_us$56                 delay
+     0000813E  A$delay$210                        delay
+     00008140  A$delay$214                        delay
+     00008140  Sdelay$delay_us$57                 delay
+     00008140  Sdelay$delay_us$58                 delay
+     00008142  A$delay$215                        delay
+     00008145  A$delay$216                        delay
+     00008147  A$delay$220                        delay
+     00008147  Sdelay$delay_us$59                 delay
+     00008147  Sdelay$delay_us$60                 delay
+     0000814B  A$delay$221                        delay
+     0000814D  A$delay$224                        delay
+     0000814D  Sdelay$delay_us$61                 delay
+     00008151  A$delay$225                        delay
+     00008152  A$delay$226                        delay
+     00008154  A$delay$230                        delay
+     00008154  Sdelay$delay_us$62                 delay
+     00008157  A$delay$231                        delay
+     0000815A  A$delay$232                        delay
+     0000815C  A$delay$233                        delay
+     0000815E  A$delay$241                        delay
+     0000815E  Sdelay$delay_us$63                 delay
+     0000815E  Sdelay$delay_us$64                 delay
+     0000815E  Sdelay$delay_us$65                 delay
+     0000815E  Sdelay$delay_us$66                 delay
+     00008161  A$delay$246                        delay
+     00008161  Sdelay$delay_us$67                 delay
+     00008161  Sdelay$delay_us$68                 delay
+     00008163  A$delay$247                        delay
+     00008165  A$delay$251                        delay
+     00008165  Sdelay$delay_us$69                 delay
+     00008165  Sdelay$delay_us$70                 delay
+     00008167  A$delay$255                        delay
+     00008167  Sdelay$delay_us$71                 delay
+     00008167  Sdelay$delay_us$72                 delay
+     00008167  XG$delay_us$0$0                    delay
+     00008168  A$delay$266                        delay
+     00008168  Sdelay$delay_us$73                 delay
+     00008168  Sdelay$millis$74                   delay
+     00008168  Sdelay$millis$75                   delay
+     00008168  Sdelay$millis$76                   delay
+     00008168  _millis                            delay
+     0000816B  A$delay$267                        delay
+     0000816F  A$delay$268                        delay
+     00008171  A$delay$269                        delay
+     00008172  A$delay$270                        delay
+     00008174  A$delay$271                        delay
+ASxxxx Linker V03.00 + NoICE + sdld,  page 12.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CODE                                000080D4    00000224 =         548. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00008175  A$delay$276                        delay
+     00008175  Sdelay$millis$77                   delay
+     00008175  Sdelay$millis$78                   delay
+     00008175  XG$millis$0$0                      delay
+     00008176  A$delay$285                        delay
+     00008176  Sdelay$micros$80                   delay
+     00008176  Sdelay$micros$81                   delay
+     00008176  Sdelay$millis$79                   delay
+     00008176  _micros                            delay
+     00008178  A$delay$289                        delay
+     00008178  Sdelay$micros$82                   delay
+     00008178  Sdelay$micros$83                   delay
+     0000817B  A$delay$290                        delay
+     0000817C  A$delay$292                        delay
+     0000817C  Sdelay$micros$84                   delay
+     0000817F  A$delay$293                        delay
+     00008180  A$delay$295                        delay
+     00008180  Sdelay$micros$85                   delay
+     00008182  A$delay$297                        delay
+     00008182  Sdelay$micros$86                   delay
+     00008183  A$delay$298                        delay
+     00008184  A$delay$300                        delay
+     00008184  Sdelay$micros$87                   delay
+     00008186  A$delay$304                        delay
+     00008186  Sdelay$micros$88                   delay
+     00008186  Sdelay$micros$89                   delay
+     00008189  A$delay$305                        delay
+     0000818B  A$delay$307                        delay
+     0000818B  Sdelay$micros$90                   delay
+     0000818D  A$delay$309                        delay
+     0000818D  Sdelay$micros$91                   delay
+     00008190  A$delay$314                        delay
+     00008190  Sdelay$micros$92                   delay
+     00008190  Sdelay$micros$93                   delay
+     00008191  A$delay$315                        delay
+     00008193  A$delay$316                        delay
+     00008195  A$delay$317                        delay
+     00008196  A$delay$318                        delay
+     00008199  A$delay$319                        delay
+     0000819B  A$delay$320                        delay
+     0000819D  A$delay$321                        delay
+     0000819F  A$delay$322                        delay
+     000081A1  A$delay$323                        delay
+     000081A3  A$delay$327                        delay
+     000081A3  Sdelay$micros$94                   delay
+     000081A3  Sdelay$micros$95                   delay
+     000081A5  A$delay$331                        delay
+     000081A5  Sdelay$micros$96                   delay
+     000081A5  Sdelay$micros$97                   delay
+     000081A5  XG$micros$0$0                      delay
+     000081A6  A$main$133                         main
+ASxxxx Linker V03.00 + NoICE + sdld,  page 13.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CODE                                000080D4    00000224 =         548. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     000081A6  Sdelay$micros$98                   delay
+     000081A6  Smain$setup$0                      main
+     000081A6  Smain$setup$1                      main
+     000081A6  Smain$setup$2                      main
+     000081A6  Smain$setup$3                      main
+     000081A6  _setup                             main
+     000081A9  A$main$134                         main
+     000081AB  A$main$135                         main
+     000081AE  A$main$138                         main
+     000081AE  Smain$setup$4                      main
+     000081B1  A$main$139                         main
+     000081B4  A$main$144                         main
+     000081B4  Smain$setup$5                      main
+     000081B4  Smain$setup$6                      main
+     000081B8  A$main$147                         main
+     000081B8  Smain$setup$7                      main
+     000081BC  A$main$150                         main
+     000081BC  Smain$setup$8                      main
+     000081C0  A$main$153                         main
+     000081C0  Smain$setup$9                      main
+     000081C4  A$main$158                         main
+     000081C4  Smain$setup$10                     main
+     000081C4  Smain$setup$11                     main
+     000081C8  A$main$162                         main
+     000081C8  Smain$setup$12                     main
+     000081C8  Smain$setup$13                     main
+     000081CC  A$main$167                         main
+     000081CC  Smain$setup$14                     main
+     000081CC  Smain$setup$15                     main
+     000081D0  A$main$172                         main
+     000081D0  Smain$setup$16                     main
+     000081D0  Smain$setup$17                     main
+     000081D4  A$main$177                         main
+     000081D4  Smain$setup$18                     main
+     000081D4  Smain$setup$19                     main
+     000081D8  A$main$182                         main
+     000081D8  Smain$setup$20                     main
+     000081D8  Smain$setup$21                     main
+     000081DC  A$main$186                         main
+     000081DC  Smain$setup$22                     main
+     000081DC  Smain$setup$23                     main
+     000081E0  A$main$191                         main
+     000081E0  Smain$setup$24                     main
+     000081E0  Smain$setup$25                     main
+     000081E4  A$main$196                         main
+     000081E4  Smain$setup$26                     main
+     000081E4  Smain$setup$27                     main
+     000081E8  A$main$201                         main
+     000081E8  Smain$setup$28                     main
+     000081E8  Smain$setup$29                     main
+     000081EC  A$main$205                         main
+ASxxxx Linker V03.00 + NoICE + sdld,  page 14.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CODE                                000080D4    00000224 =         548. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     000081EC  Smain$setup$30                     main
+     000081EC  Smain$setup$31                     main
+     000081EF  A$main$208                         main
+     000081EF  Smain$setup$32                     main
+     000081F2  A$main$209                         main
+     000081F5  A$main$210                         main
+     000081F9  A$main$215                         main
+     000081F9  Smain$setup$33                     main
+     000081F9  Smain$setup$34                     main
+     000081F9  XG$setup$0$0                       main
+     000081FA  A$main$224                         main
+     000081FA  Smain$generateNoise$36             main
+     000081FA  Smain$generateNoise$37             main
+     000081FA  Smain$setup$35                     main
+     000081FA  _generateNoise                     main
+     000081FC  A$main$228                         main
+     000081FC  Smain$generateNoise$38             main
+     000081FC  Smain$generateNoise$39             main
+     000081FF  A$main$229                         main
+     00008203  A$main$230                         main
+     00008205  A$main$231                         main
+     00008207  A$main$232                         main
+     00008209  A$main$233                         main
+     0000820A  A$main$234                         main
+     0000820F  A$main$236                         main
+     0000820F  Smain$generateNoise$40             main
+     00008210  A$main$237                         main
+     00008212  A$main$238                         main
+     00008213  A$main$239                         main
+     00008215  A$main$240                         main
+     00008216  A$main$241                         main
+     00008218  A$main$242                         main
+     0000821A  A$main$243                         main
+     0000821C  A$main$244                         main
+     0000821E  A$main$245                         main
+     00008220  A$main$246                         main
+     00008223  A$main$247                         main
+     00008227  A$main$248                         main
+     00008228  A$main$249                         main
+     00008229  A$main$250                         main
+     0000822B  A$main$256                         main
+     0000822B  Smain$generateNoise$41             main
+     0000822B  Smain$generateNoise$42             main
+     0000822B  Smain$generateNoise$43             main
+     0000822E  A$main$257                         main
+     00008230  A$main$258                         main
+     00008233  A$main$259                         main
+     00008234  A$main$264                         main
+     00008234  Smain$generateNoise$44             main
+     00008234  Smain$generateNoise$45             main
+     00008236  A$main$268                         main
+ASxxxx Linker V03.00 + NoICE + sdld,  page 15.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CODE                                000080D4    00000224 =         548. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00008236  Smain$generateNoise$46             main
+     00008236  Smain$generateNoise$47             main
+     00008236  XG$generateNoise$0$0               main
+     00008237  A$main$277                         main
+     00008237  Smain$generateNoise$48             main
+     00008237  Smain$loop$49                      main
+     00008237  Smain$loop$50                      main
+     00008237  _loop                              main
+     00008239  A$main$281                         main
+     00008239  Smain$loop$51                      main
+     00008239  Smain$loop$52                      main
+     0000823C  A$main$282                         main
+     0000823D  A$main$283                         main
+     00008241  A$main$284                         main
+     00008243  A$main$285                         main
+     00008244  A$main$286                         main
+     00008247  A$main$287                         main
+     00008249  A$main$288                         main
+     0000824A  A$main$289                         main
+     0000824D  A$main$290                         main
+     0000824F  A$main$291                         main
+     00008252  A$main$292                         main
+     00008254  A$main$293                         main
+     00008255  A$main$294                         main
+     00008257  A$main$295                         main
+     00008258  A$main$296                         main
+     0000825A  A$main$297                         main
+     0000825C  A$main$301                         main
+     0000825C  Smain$loop$53                      main
+     0000825C  Smain$loop$54                      main
+     0000825F  A$main$302                         main
+     00008262  A$main$303                         main
+     00008266  A$main$306                         main
+     00008266  Smain$loop$55                      main
+     00008269  A$main$307                         main
+     0000826A  A$main$308                         main
+     0000826C  A$main$312                         main
+     0000826C  Smain$loop$56                      main
+     0000826C  Smain$loop$57                      main
+     00008270  A$main$319                         main
+     00008270  Smain$loop$58                      main
+     00008270  Smain$loop$59                      main
+     00008270  Smain$loop$60                      main
+     00008272  A$main$323                         main
+     00008272  Smain$loop$61                      main
+     00008272  Smain$loop$62                      main
+     00008272  XG$loop$0$0                        main
+     00008273  A$main$334                         main
+     00008273  Smain$loop$63                      main
+     00008273  Smain$main$64                      main
+     00008273  Smain$main$65                      main
+ASxxxx Linker V03.00 + NoICE + sdld,  page 16.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CODE                                000080D4    00000224 =         548. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00008273  Smain$main$66                      main
+     00008273  _main                              main
+     00008276  A$main$340                         main
+     00008276  Smain$main$67                      main
+     00008276  Smain$main$68                      main
+     00008279  A$main$341                         main
+     0000827B  A$main$346                         main
+     0000827B  Smain$main$69                      main
+     0000827B  Smain$main$70                      main
+     0000827B  XG$main$0$0                        main
+     0000827C  Smain$main$71                      main
+     0000827C  __mullong                          
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 17.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.debug_line                         00000000    00000417 =        1047. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00 + NoICE + sdld,  page 18.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.debug_loc                          00000000    000001AC =         428. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00 + NoICE + sdld,  page 19.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.debug_abbrev                       00000000    0000017F =         383. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00 + NoICE + sdld,  page 20.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.debug_info                         00000000    000007D5 =        2005. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00 + NoICE + sdld,  page 21.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.debug_pubnames                     00000000    000000CE =         206. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00 + NoICE + sdld,  page 22.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.debug_frame                        00000000    0000021F =         543. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00 + NoICE + sdld,  page 23.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+SSEG                                000082F8    00000001 =           1. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00 + NoICE + sdld,  page 24.
+
+Files Linked                              [ module(s) ]
+
+dist/delay.rel                            [ delay ]
+dist/main.rel                             [ main ]
+
+
+Libraries Linked                          [ object file ]
+
+/usr/bin/../share/sdcc/lib/stm8/stm8.lib  [ _mullong.rel ]
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 25.
+
+User Base Address Definitions
+
+HOME = 0x8000
+DATA = 0x0001
+
+
