@@ -1,0 +1,192 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:R R?
+U 1 1 5EC87F51
+P 3250 1750
+F 0 "R?" H 3180 1704 50  0000 R CNN
+F 1 "4.7k" H 3180 1795 50  0000 R CNN
+F 2 "" V 3180 1750 50  0001 C CNN
+F 3 "~" H 3250 1750 50  0001 C CNN
+	1    3250 1750
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5EC8903D
+P 3250 2250
+F 0 "R?" H 3320 2296 50  0000 L CNN
+F 1 "4.7k" H 3320 2205 50  0000 L CNN
+F 2 "" V 3180 2250 50  0001 C CNN
+F 3 "~" H 3250 2250 50  0001 C CNN
+	1    3250 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5EC8A623
+P 3850 2000
+F 0 "R?" V 3643 2000 50  0000 C CNN
+F 1 "4.7k" V 3734 2000 50  0000 C CNN
+F 2 "" V 3780 2000 50  0001 C CNN
+F 3 "~" H 3850 2000 50  0001 C CNN
+	1    3850 2000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Variable R?
+U 1 1 5EC8B220
+P 3850 2950
+F 0 "R?" V 3605 2950 50  0000 C CNN
+F 1 "39k" V 3696 2950 50  0000 C CNN
+F 2 "" V 3780 2950 50  0001 C CNN
+F 3 "~" H 3850 2950 50  0001 C CNN
+	1    3850 2950
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5EC8E221
+P 3500 3350
+F 0 "C?" H 3385 3304 50  0000 R CNN
+F 1 "10n" H 3385 3395 50  0000 R CNN
+F 2 "" H 3538 3200 50  0001 C CNN
+F 3 "~" H 3500 3350 50  0001 C CNN
+	1    3500 3350
+	-1   0    0    1   
+$EndComp
+$Comp
+L Amplifier_Operational:LM358 U?
+U 1 1 5EC8F811
+P 4400 2500
+F 0 "U?" H 4400 2867 50  0000 C CNN
+F 1 "LM358" H 4400 2776 50  0000 C CNN
+F 2 "" H 4400 2500 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" H 4400 2500 50  0001 C CNN
+	1    4400 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:LM358 U?
+U 3 1 5EC946D6
+P 2200 1600
+F 0 "U?" H 2158 1646 50  0000 L CNN
+F 1 "LM358" H 2158 1555 50  0000 L CNN
+F 2 "" H 2200 1600 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" H 2200 1600 50  0001 C CNN
+	3    2200 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5ECA6D12
+P 2100 2300
+F 0 "#PWR?" H 2100 2050 50  0001 C CNN
+F 1 "GND" H 2105 2127 50  0000 C CNN
+F 2 "" H 2100 2300 50  0001 C CNN
+F 3 "" H 2100 2300 50  0001 C CNN
+	1    2100 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5ECA84A8
+P 3500 3650
+F 0 "#PWR?" H 3500 3400 50  0001 C CNN
+F 1 "GND" H 3505 3477 50  0000 C CNN
+F 2 "" H 3500 3650 50  0001 C CNN
+F 3 "" H 3500 3650 50  0001 C CNN
+	1    3500 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5ECAA054
+P 3250 2600
+F 0 "#PWR?" H 3250 2350 50  0001 C CNN
+F 1 "GND" H 3255 2427 50  0000 C CNN
+F 2 "" H 3250 2600 50  0001 C CNN
+F 3 "" H 3250 2600 50  0001 C CNN
+	1    3250 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 5ECAA788
+P 2100 1050
+F 0 "#PWR?" H 2100 900 50  0001 C CNN
+F 1 "VCC" H 2117 1223 50  0000 C CNN
+F 2 "" H 2100 1050 50  0001 C CNN
+F 3 "" H 2100 1050 50  0001 C CNN
+	1    2100 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 5ECAC9DB
+P 3250 1350
+F 0 "#PWR?" H 3250 1200 50  0001 C CNN
+F 1 "VCC" H 3267 1523 50  0000 C CNN
+F 2 "" H 3250 1350 50  0001 C CNN
+F 3 "" H 3250 1350 50  0001 C CNN
+	1    3250 1350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 2000 4700 2000
+Wire Wire Line
+	4700 2000 4700 2500
+Wire Wire Line
+	4700 2500 4700 2950
+Wire Wire Line
+	4700 2950 4000 2950
+Connection ~ 4700 2500
+Wire Wire Line
+	3700 2950 3500 2950
+Wire Wire Line
+	3500 2950 3500 3200
+Wire Wire Line
+	4100 2600 3500 2600
+Wire Wire Line
+	3500 2600 3500 2950
+Connection ~ 3500 2950
+Wire Wire Line
+	4100 2400 3500 2400
+Wire Wire Line
+	3500 2400 3500 2000
+Wire Wire Line
+	3500 2000 3700 2000
+Wire Wire Line
+	3250 1600 3250 1350
+Wire Wire Line
+	3250 2400 3250 2600
+Wire Wire Line
+	2100 1900 2100 2300
+Wire Wire Line
+	2100 1300 2100 1050
+Connection ~ 3500 2000
+Wire Wire Line
+	3250 1900 3250 2000
+Wire Wire Line
+	3500 2000 3250 2000
+Connection ~ 3250 2000
+Wire Wire Line
+	3250 2000 3250 2100
+Wire Wire Line
+	4700 2500 5050 2500
+Wire Wire Line
+	3500 3500 3500 3650
+$EndSCHEMATC

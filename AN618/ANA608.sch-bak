@@ -1,0 +1,198 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L ANA608:ANA608 U?
+U 1 1 60C3C127
+P 1550 1550
+F 0 "U?" H 1500 1800 50  0000 L CNN
+F 1 "ANA608" H 1400 1700 50  0000 L CNN
+F 2 "" H 1550 1650 50  0001 C CNN
+F 3 "" H 1550 1650 50  0001 C CNN
+	1    1550 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR?
+U 1 1 60C3CA6F
+P 1400 2350
+F 0 "#PWR?" H 1400 2100 50  0001 C CNN
+F 1 "Earth" H 1400 2200 50  0001 C CNN
+F 2 "" H 1400 2350 50  0001 C CNN
+F 3 "~" H 1400 2350 50  0001 C CNN
+	1    1400 2350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1400 1800 1400 1900
+Wire Wire Line
+	1700 1800 2000 1800
+Wire Wire Line
+	2000 1800 2000 1350
+Text Label 2000 1350 0    50   ~ 0
+1V5
+$Comp
+L Device:LED D?
+U 1 1 60C3D91F
+P 1600 2150
+F 0 "D?" V 1639 2032 50  0000 R CNN
+F 1 "White" V 1548 2032 50  0000 R CNN
+F 2 "" H 1600 2150 50  0001 C CNN
+F 3 "~" H 1600 2150 50  0001 C CNN
+	1    1600 2150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:Earth #PWR?
+U 1 1 60C3E1BA
+P 1600 2350
+F 0 "#PWR?" H 1600 2100 50  0001 C CNN
+F 1 "Earth" H 1600 2200 50  0001 C CNN
+F 2 "" H 1600 2350 50  0001 C CNN
+F 3 "~" H 1600 2350 50  0001 C CNN
+	1    1600 2350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1600 2350 1600 2300
+Wire Wire Line
+	1600 1800 1600 1900
+$Comp
+L Device:L L?
+U 1 1 60C3E914
+P 1800 1900
+F 0 "L?" V 1650 1900 50  0000 C CNN
+F 1 "33u" V 1750 1900 50  0000 C CNN
+F 2 "" H 1800 1900 50  0001 C CNN
+F 3 "~" H 1800 1900 50  0001 C CNN
+	1    1800 1900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1650 1900 1600 1900
+Connection ~ 1600 1900
+Wire Wire Line
+	1600 1900 1600 2000
+Wire Wire Line
+	1950 1900 2000 1900
+Wire Wire Line
+	2000 1900 2000 1800
+Connection ~ 2000 1800
+Wire Wire Line
+	1500 1800 1500 1900
+Wire Wire Line
+	1500 1900 1400 1900
+Connection ~ 1400 1900
+Wire Wire Line
+	1400 1900 1400 2350
+$Comp
+L ANA608:ANA608 U?
+U 1 1 60C44887
+P 3050 1550
+F 0 "U?" H 3000 1800 50  0000 L CNN
+F 1 "ANA608" H 2900 1700 50  0000 L CNN
+F 2 "" H 3050 1650 50  0001 C CNN
+F 3 "" H 3050 1650 50  0001 C CNN
+	1    3050 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR?
+U 1 1 60C453E6
+P 2900 2800
+F 0 "#PWR?" H 2900 2550 50  0001 C CNN
+F 1 "Earth" H 2900 2650 50  0001 C CNN
+F 2 "" H 2900 2800 50  0001 C CNN
+F 3 "~" H 2900 2800 50  0001 C CNN
+	1    2900 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 1800 3000 1850
+Wire Wire Line
+	3000 1850 2900 1850
+Wire Wire Line
+	2900 1850 2900 1800
+Wire Wire Line
+	2900 1850 2900 2800
+Connection ~ 2900 1850
+$Comp
+L Device:L L?
+U 1 1 60C45D86
+P 3250 1950
+F 0 "L?" V 3100 1950 50  0000 C CNN
+F 1 "68u" V 3200 1950 50  0000 C CNN
+F 2 "" H 3250 1950 50  0001 C CNN
+F 3 "~" H 3250 1950 50  0001 C CNN
+	1    3250 1950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3100 1800 3100 1950
+$Comp
+L Device:D_Schottky D?
+U 1 1 60C46845
+P 3100 2300
+F 0 "D?" V 3146 2220 50  0000 R CNN
+F 1 "5817" V 3055 2220 50  0000 R CNN
+F 2 "" H 3100 2300 50  0001 C CNN
+F 3 "~" H 3100 2300 50  0001 C CNN
+	1    3100 2300
+	0    -1   -1   0   
+$EndComp
+Connection ~ 3100 1950
+$Comp
+L Device:CP_Small C?
+U 1 1 60C48CE4
+P 3100 2600
+F 0 "C?" H 3188 2646 50  0000 L CNN
+F 1 "CP_Small" H 3188 2555 50  0000 L CNN
+F 2 "" H 3100 2600 50  0001 C CNN
+F 3 "~" H 3100 2600 50  0001 C CNN
+	1    3100 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR?
+U 1 1 60C4B30C
+P 3100 2800
+F 0 "#PWR?" H 3100 2550 50  0001 C CNN
+F 1 "Earth" H 3100 2650 50  0001 C CNN
+F 2 "" H 3100 2800 50  0001 C CNN
+F 3 "~" H 3100 2800 50  0001 C CNN
+	1    3100 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3100 2450 3100 2500
+Wire Wire Line
+	3100 2700 3100 2800
+Wire Wire Line
+	3200 1800 3400 1800
+Wire Wire Line
+	3400 1800 3400 1950
+Wire Wire Line
+	3400 1800 3400 1350
+Connection ~ 3400 1800
+Text Label 3400 1350 0    50   ~ 0
++1V5
+Wire Wire Line
+	3100 2450 3450 2450
+Text Label 3450 2450 0    50   ~ 0
++4V65
+Wire Wire Line
+	3100 1950 3100 2150
+Connection ~ 3100 2450
+$EndSCHEMATC

@@ -1,0 +1,312 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:Transformer_1P_2S T1
+U 1 1 60C3B9D3
+P 1350 2300
+F 0 "T1" H 1350 2881 50  0000 C CNN
+F 1 "Transformer_1P_2S" H 1350 2790 50  0000 C CNN
+F 2 "" H 1350 2300 50  0001 C CNN
+F 3 "~" H 1350 2300 50  0001 C CNN
+	1    1350 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Regulator_Linear:LM317_TO-220 U1
+U 1 1 60C3C6E0
+P 4700 1850
+F 0 "U1" H 4700 2092 50  0000 C CNN
+F 1 "317" H 4700 2001 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 4700 2100 50  0001 C CIN
+F 3 "http://www.ti.com/lit/ds/symlink/lm317.pdf" H 4700 1850 50  0001 C CNN
+	1    4700 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP1_Small C2
+U 1 1 60C3CDCD
+P 3800 2050
+F 0 "C2" H 3891 2096 50  0000 L CNN
+F 1 "1000u" H 3891 2005 50  0000 L CNN
+F 2 "" H 3800 2050 50  0001 C CNN
+F 3 "~" H 3800 2050 50  0001 C CNN
+	1    3800 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R1
+U 1 1 60C3D589
+P 3600 1850
+F 0 "R1" V 3805 1850 50  0000 C CNN
+F 1 "1" V 3714 1850 50  0000 C CNN
+F 2 "" V 3640 1840 50  0001 C CNN
+F 3 "~" H 3600 1850 50  0001 C CNN
+	1    3600 1850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_POT_US RV1
+U 1 1 60C3E049
+P 4700 2600
+F 0 "RV1" V 4587 2600 50  0000 C CNN
+F 1 "10k" V 4496 2600 50  0000 C CNN
+F 2 "" H 4700 2600 50  0001 C CNN
+F 3 "~" H 4700 2600 50  0001 C CNN
+	1    4700 2600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Schottky D4
+U 1 1 60C3EEC0
+P 2950 2050
+F 0 "D4" V 2996 1970 50  0000 R CNN
+F 1 "5817" V 2905 1970 50  0000 R CNN
+F 2 "" H 2950 2050 50  0001 C CNN
+F 3 "~" H 2950 2050 50  0001 C CNN
+	1    2950 2050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Schottky D3
+U 1 1 60C3F48E
+P 2650 2050
+F 0 "D3" V 2696 1970 50  0000 R CNN
+F 1 "5817" V 2605 1970 50  0000 R CNN
+F 2 "" H 2650 2050 50  0001 C CNN
+F 3 "~" H 2650 2050 50  0001 C CNN
+	1    2650 2050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Schottky D2
+U 1 1 60C3FA59
+P 2350 2050
+F 0 "D2" V 2304 1970 50  0000 R CNN
+F 1 "5817" V 2395 1970 50  0000 R CNN
+F 2 "" H 2350 2050 50  0001 C CNN
+F 3 "~" H 2350 2050 50  0001 C CNN
+	1    2350 2050
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:D_Schottky D1
+U 1 1 60C400C1
+P 2050 2050
+F 0 "D1" V 2004 1970 50  0000 R CNN
+F 1 "5817" V 2095 1970 50  0000 R CNN
+F 2 "" H 2050 2050 50  0001 C CNN
+F 3 "~" H 2050 2050 50  0001 C CNN
+	1    2050 2050
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	2650 1900 2350 1900
+Wire Wire Line
+	2950 1900 2950 1850
+Wire Wire Line
+	2950 1850 2050 1850
+Wire Wire Line
+	2050 1850 2050 1900
+Wire Wire Line
+	2950 2200 2650 2200
+Wire Wire Line
+	2350 2200 2200 2200
+Wire Wire Line
+	1750 1900 1750 1850
+Wire Wire Line
+	1750 1850 2050 1850
+Connection ~ 2050 1850
+Wire Wire Line
+	1750 2200 1800 2200
+Wire Wire Line
+	1800 2200 1800 1900
+Connection ~ 2350 1900
+Wire Wire Line
+	1800 1900 2350 1900
+Wire Wire Line
+	2200 2200 2200 2250
+Connection ~ 2200 2200
+Wire Wire Line
+	2200 2200 2050 2200
+Wire Wire Line
+	2200 2250 3400 2250
+$Comp
+L Device:CP1_Small C1
+U 1 1 60C59966
+P 3400 2050
+F 0 "C1" H 3491 2096 50  0000 L CNN
+F 1 "1000u" H 3491 2005 50  0000 L CNN
+F 2 "" H 3400 2050 50  0001 C CNN
+F 3 "~" H 3400 2050 50  0001 C CNN
+	1    3400 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3400 1850 3400 1950
+Wire Wire Line
+	3400 2150 3400 2250
+Connection ~ 3400 2250
+Wire Wire Line
+	3400 2250 3800 2250
+Wire Wire Line
+	3400 1850 3450 1850
+Wire Wire Line
+	3750 1850 3800 1850
+Wire Wire Line
+	3800 1850 3800 1950
+Wire Wire Line
+	3800 2150 3800 2250
+Connection ~ 3800 2250
+Wire Wire Line
+	3800 2250 4200 2250
+$Comp
+L Device:C_Small C3
+U 1 1 60C614FD
+P 4200 2050
+F 0 "C3" H 4292 2096 50  0000 L CNN
+F 1 "100n" H 4292 2005 50  0000 L CNN
+F 2 "" H 4200 2050 50  0001 C CNN
+F 3 "~" H 4200 2050 50  0001 C CNN
+	1    4200 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3800 1850 4200 1850
+Wire Wire Line
+	4200 1850 4200 1950
+Connection ~ 3800 1850
+Wire Wire Line
+	4200 2150 4200 2250
+Connection ~ 4200 2250
+Wire Wire Line
+	4200 2250 4850 2250
+Wire Wire Line
+	4200 1850 4350 1850
+Connection ~ 4200 1850
+$Comp
+L Device:D D5
+U 1 1 60C64402
+P 4750 1500
+F 0 "D5" H 4750 1717 50  0000 C CNN
+F 1 "4007" H 4750 1626 50  0000 C CNN
+F 2 "" H 4750 1500 50  0001 C CNN
+F 3 "~" H 4750 1500 50  0001 C CNN
+	1    4750 1500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4350 1850 4350 1500
+Wire Wire Line
+	4350 1500 4600 1500
+Connection ~ 4350 1850
+Wire Wire Line
+	4350 1850 4400 1850
+Wire Wire Line
+	4900 1500 5200 1500
+Wire Wire Line
+	5200 1500 5200 1850
+Wire Wire Line
+	5200 1850 5000 1850
+$Comp
+L Device:R_US R2
+U 1 1 60C6ABAC
+P 5000 2150
+F 0 "R2" V 5205 2150 50  0000 C CNN
+F 1 "270" V 5114 2150 50  0000 C CNN
+F 2 "" V 5040 2140 50  0001 C CNN
+F 3 "~" H 5000 2150 50  0001 C CNN
+	1    5000 2150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4700 2150 4850 2150
+Wire Wire Line
+	5200 1850 5200 2150
+Wire Wire Line
+	5200 2150 5150 2150
+Connection ~ 5200 1850
+Wire Wire Line
+	4700 2150 4700 2400
+Connection ~ 4700 2150
+Wire Wire Line
+	4550 2600 4550 2400
+Wire Wire Line
+	4550 2400 4700 2400
+Connection ~ 4700 2400
+Wire Wire Line
+	4700 2400 4700 2450
+Wire Wire Line
+	4850 2600 4850 2250
+Connection ~ 4850 2250
+Wire Wire Line
+	4850 2250 5500 2250
+$Comp
+L Device:C_Small C4
+U 1 1 60C78A05
+P 5500 2050
+F 0 "C4" H 5592 2096 50  0000 L CNN
+F 1 "10u" H 5592 2005 50  0000 L CNN
+F 2 "" H 5500 2050 50  0001 C CNN
+F 3 "~" H 5500 2050 50  0001 C CNN
+	1    5500 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5200 1850 5500 1850
+Wire Wire Line
+	5500 1850 5500 1950
+Wire Wire Line
+	5500 2150 5500 2250
+Connection ~ 5500 2250
+Wire Wire Line
+	5500 2250 5850 2250
+$Comp
+L Device:D D6
+U 1 1 60C7A3CC
+P 5850 2050
+F 0 "D6" V 5804 2130 50  0000 L CNN
+F 1 "4007" V 5895 2130 50  0000 L CNN
+F 2 "" H 5850 2050 50  0001 C CNN
+F 3 "~" H 5850 2050 50  0001 C CNN
+	1    5850 2050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5500 1850 5850 1850
+Wire Wire Line
+	5850 1850 5850 1900
+Connection ~ 5500 1850
+Wire Wire Line
+	5850 2200 5850 2250
+Connection ~ 5850 2250
+Wire Wire Line
+	5850 2250 6750 2250
+Wire Wire Line
+	5850 1850 6750 1850
+Connection ~ 5850 1850
+Text Label 6750 1850 0    50   ~ 0
+V1+
+Text Label 6750 2250 0    50   ~ 0
+V1-
+Wire Wire Line
+	2950 2200 3250 2200
+Wire Wire Line
+	3250 2200 3250 1850
+Wire Wire Line
+	3250 1850 3400 1850
+Connection ~ 2950 2200
+Connection ~ 3400 1850
+$EndSCHEMATC

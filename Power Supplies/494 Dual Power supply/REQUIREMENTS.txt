@@ -1,0 +1,34 @@
+
+dual output power supply:
+
+1.  outputs can range from 0 to +25V
+2.  maximum output current of ~1.5A (at any output voltage)
+3.  outputs can be independently operated (isolated; no common ground)
+4.  outputs can configured in series [manually via a jumper], to provide dual-polarity output
+5.  can select maximum current
+6.  can select the maximum voltage (precision +/-0.1%)
+7.  indicator light when current limiter has been triggered
+8.  digital displays for: output voltage setpoint, output current setpoint, measured output current, measured output voltage
+9.  two rotary encoders for each output channel, to select voltage and current
+10. output current and voltage settings to be managed via a microcontroller
+11. dedicated +5V channel, <= 1000mA, no particlar accuracy or ripple requirement [nice-to-have]
+
+
+components I have on hand:
+
+- 500VA transformer, 120V pri, dual 28V secondaries
+- hardware, connectors, enclosure, etc.
+- pots, trimmers, rotary encoders
+- wide assortment of discrete components, resistors, caps, inductors, small and large BJT/MOSFET, etc.
+- wide assortment of jellybean opamps and comparators
+- TL431, LM317/337, LM2596, 34063, TL494
+- lots of uC's. Prefer to use STM8 or atmega
+- OLED's, character LCD's, and 7-segment LED's
+
+
+Thoughts:
+- Use a filtered-PWM DAC from the uC and an opamp to configure current and voltage settings
+- Use a TL494 SMPS to 'buck' the input down to about 3V above the setpoint
+- Use an LM317 to drop and filter from the SMPS down to final output [Could also use TL431 and a pass transistor for better accuracy and SMPS ripple filtering?]
+- will need a dedicated negative rail, so that I can get the 317 down to 0V (maybe a charge pump from a spare pin on the uC?)
+- will need a dedicated 3V3 or 5V rail to run the uC and displays. 

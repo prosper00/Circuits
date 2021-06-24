@@ -1,0 +1,21 @@
+Circuit: OPWIEN.CIR - OPAMP WIEN-BRIDGE OSCILLATOR
+
+.OP point found by inspection.
+
+Date: Sun May 24 11:01:07 2020
+Total elapsed time: 0.032 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 2346
+traniter = 2346
+tranpoints = 1074
+accept = 1072
+rejected = 2
+matrix size = 12
+fillins = 6
+solver = Normal
+Matrix Compiler1: 990 bytes object code size  0.3/0.2/[0.2]
+Matrix Compiler2: off  [0.2]/0.2/0.2
+

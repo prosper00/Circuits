@@ -1,0 +1,26 @@
+( { EESchema Netlist Version 1.1  Fri 22 May 2020 07:55:28 PM MDT
+Eeschema 5.1.5+dfsg1-2build2}
+ ( 5EC87F51 $noname R1 4.7k
+  ( 1 Net-(R1-Pad1) )
+  ( 2 VCC )
+ )
+ ( 5EC8903D $noname R2 4.7k
+  ( 1 Net-(R1-Pad1) )
+  ( 2 GND )
+ )
+ ( 5EC8A623 $noname R3 4.7k
+  ( 1 /Out )
+  ( 2 Net-(R1-Pad1) )
+ )
+ ( 5EC8B220 $noname R4 39k
+  ( 1 /Out )
+  ( 2 Net-(C1-Pad2) )
+ )
+ ( 5EC8E221 $noname C1 10n
+  ( 1 GND )
+  ( 2 Net-(C1-Pad2) )
+ )
+ ( 5EC8F811 $noname U1 LM358
+ )
+)
+*
