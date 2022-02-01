@@ -150,17 +150,6 @@ F 3 "~" H 5500 3050 50  0001 C CNN
 	1    5500 3050
 	0    1    1    0   
 $EndComp
-$Comp
-L Device:R_US R7
-U 1 1 60BE0EC9
-P 6050 3050
-F 0 "R7" V 6255 3050 50  0000 C CNN
-F 1 "100k" V 6164 3050 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 6090 3040 50  0001 C CNN
-F 3 "~" H 6050 3050 50  0001 C CNN
-	1    6050 3050
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	7150 3050 6200 3050
 Wire Wire Line
@@ -994,17 +983,6 @@ F 3 "~" H 5150 2850 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:R_US R5
-U 1 1 61FB8A2D
-P 5150 3250
-F 0 "R5" H 5082 3204 50  0000 R CNN
-F 1 "2.7k" H 5082 3295 50  0000 R CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 5190 3240 50  0001 C CNN
-F 3 "~" H 5150 3250 50  0001 C CNN
-	1    5150 3250
-	-1   0    0    -1  
-$EndComp
-$Comp
 L power:Earth #PWR021
 U 1 1 61FC367A
 P 5150 3450
@@ -1015,8 +993,6 @@ F 3 "~" H 5150 3450 50  0001 C CNN
 	1    5150 3450
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5150 3450 5150 3400
 Wire Wire Line
 	5150 2700 5150 2650
 Wire Wire Line
@@ -1098,7 +1074,7 @@ Text Notes 3850 2800 0    50   ~ 0
 Set voltage limit\n(1V=5V)
 Wire Wire Line
 	3750 2050 3750 2100
-Text Notes 5750 3200 0    50   Italic 0
+Text Notes 5350 2450 0    50   Italic 0
 Vo=(Vi_VOLT*5)-1.25
 Text Notes 4950 5150 0    50   ~ 0
 Overcurrent cutoff\n1000mV=1000mA
@@ -1163,4 +1139,38 @@ V_SUPP
 Connection ~ 8400 2150
 Wire Wire Line
 	8400 2150 8700 2150
+$Comp
+L Device:R_POT_TRIM_US R_OFFSET
+U 1 1 61F9D71C
+P 5150 3250
+F 0 "R_OFFSET" H 5083 3296 50  0000 R CNN
+F 1 "10k" H 5083 3205 50  0000 R CNN
+F 2 "" H 5150 3250 50  0001 C CNN
+F 3 "~" H 5150 3250 50  0001 C CNN
+	1    5150 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5150 3450 5150 3400
+Wire Wire Line
+	5150 3400 5300 3400
+Wire Wire Line
+	5300 3400 5300 3250
+Connection ~ 5150 3400
+$Comp
+L Device:R_POT_TRIM_US R_GAIN
+U 1 1 61FBFBF0
+P 6050 3050
+F 0 "R_GAIN" V 5950 3350 50  0000 R CNN
+F 1 "500k" V 5950 3050 50  0000 R CNN
+F 2 "" H 6050 3050 50  0001 C CNN
+F 3 "~" H 6050 3050 50  0001 C CNN
+	1    6050 3050
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6050 2900 6200 2900
+Wire Wire Line
+	6200 2900 6200 3050
+Connection ~ 6200 3050
 $EndSCHEMATC

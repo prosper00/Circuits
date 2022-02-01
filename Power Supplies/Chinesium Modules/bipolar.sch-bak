@@ -357,12 +357,16 @@ Wire Wire Line
 	4200 4400 4200 5450
 Connection ~ 4200 4400
 Connection ~ 5500 5250
-Text Label 6250 5250 0    50   ~ 0
+Text Label 6200 5250 0    50   ~ 0
 -VOut
 Wire Wire Line
-	5500 5250 6250 5250
+	5500 5250 6200 5250
 Wire Wire Line
 	4200 5450 4850 5450
 Wire Wire Line
 	5500 4800 5500 5250
+Text Notes 4250 4600 0    50   ~ 0
+0.6V
+Text Notes 4600 4050 0    50   ~ 0
+15.205V
 $EndSCHEMATC
