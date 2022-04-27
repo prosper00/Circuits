@@ -1,0 +1,256 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp "https://makingcircuits.com/blog/simple-low-dropout-voltage-regulator-using-transistors/"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:Q_PNP_BCE Q?
+U 1 1 623CC4F7
+P 3050 2950
+F 0 "Q?" V 3378 2950 50  0000 C CNN
+F 1 "Q_PNP_BCE" V 3287 2950 50  0000 C CNN
+F 2 "" H 3250 3050 50  0001 C CNN
+F 3 "~" H 3050 2950 50  0001 C CNN
+	1    3050 2950
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:Q_NPN_EBC Q?
+U 1 1 623CD454
+P 2450 3950
+F 0 "Q?" H 2641 3996 50  0000 L CNN
+F 1 "547" H 2641 3905 50  0000 L CNN
+F 2 "" H 2650 4050 50  0001 C CNN
+F 3 "~" H 2450 3950 50  0001 C CNN
+	1    2450 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_NPN_EBC Q?
+U 1 1 623CD8FA
+P 3150 3950
+F 0 "Q?" H 3341 3996 50  0000 L CNN
+F 1 "547" H 3341 3905 50  0000 L CNN
+F 2 "" H 3350 4050 50  0001 C CNN
+F 3 "~" H 3150 3950 50  0001 C CNN
+	1    3150 3950
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 623CEA86
+P 2800 4700
+F 0 "R?" H 2870 4746 50  0000 L CNN
+F 1 "330" H 2870 4655 50  0000 L CNN
+F 2 "" V 2730 4700 50  0001 C CNN
+F 3 "~" H 2800 4700 50  0001 C CNN
+	1    2800 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 623CF2FE
+P 3400 3750
+F 0 "C?" H 3515 3796 50  0000 L CNN
+F 1 "100p" H 3515 3705 50  0000 L CNN
+F 2 "" H 3438 3600 50  0001 C CNN
+F 3 "~" H 3400 3750 50  0001 C CNN
+	1    3400 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Zener D?
+U 1 1 623CF999
+P 3750 4700
+F 0 "D?" H 3750 4917 50  0000 C CNN
+F 1 "4v7" H 3750 4826 50  0000 C CNN
+F 2 "" H 3750 4700 50  0001 C CNN
+F 3 "~" H 3750 4700 50  0001 C CNN
+	1    3750 4700
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 623CFD97
+P 3750 3100
+F 0 "D?" H 3750 3317 50  0000 C CNN
+F 1 "D" H 3750 3226 50  0000 C CNN
+F 2 "" H 3750 3100 50  0001 C CNN
+F 3 "~" H 3750 3100 50  0001 C CNN
+	1    3750 3100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 623D0541
+P 2800 3350
+F 0 "R?" V 2593 3350 50  0000 C CNN
+F 1 "100k" V 2684 3350 50  0000 C CNN
+F 2 "" V 2730 3350 50  0001 C CNN
+F 3 "~" H 2800 3350 50  0001 C CNN
+	1    2800 3350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2850 2850 2550 2850
+Wire Wire Line
+	2550 3750 2550 3350
+Connection ~ 2550 2850
+Wire Wire Line
+	2550 2850 1550 2850
+Wire Wire Line
+	2650 3350 2550 3350
+Connection ~ 2550 3350
+Wire Wire Line
+	2550 3350 2550 2850
+Wire Wire Line
+	2550 4150 2550 4250
+Wire Wire Line
+	2550 4250 2800 4250
+Wire Wire Line
+	3050 4150 3050 4250
+Wire Wire Line
+	2800 4550 2800 4250
+Connection ~ 2800 4250
+Wire Wire Line
+	2800 4250 3050 4250
+Wire Wire Line
+	2250 3950 2200 3950
+Wire Wire Line
+	2200 3950 2200 4400
+Wire Wire Line
+	2200 4400 4150 4400
+Wire Wire Line
+	3350 3950 3400 3950
+Wire Wire Line
+	3400 3950 3400 3900
+Wire Wire Line
+	3050 3750 3050 3550
+Wire Wire Line
+	3050 3550 3400 3550
+Wire Wire Line
+	3400 3550 3400 3600
+Wire Wire Line
+	3250 2850 3750 2850
+Wire Wire Line
+	3750 2850 3750 2950
+$Comp
+L Device:R R?
+U 1 1 623D56E8
+P 3750 3650
+F 0 "R?" H 3820 3696 50  0000 L CNN
+F 1 "1k" H 3820 3605 50  0000 L CNN
+F 2 "" V 3680 3650 50  0001 C CNN
+F 3 "~" H 3750 3650 50  0001 C CNN
+	1    3750 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3750 3250 3750 3350
+Wire Wire Line
+	2950 3350 3750 3350
+Connection ~ 3750 3350
+Wire Wire Line
+	3750 3350 3750 3500
+Wire Wire Line
+	3750 3800 3750 3950
+Wire Wire Line
+	3400 3950 3750 3950
+Connection ~ 3400 3950
+Connection ~ 3750 3950
+Wire Wire Line
+	3750 3950 3750 4550
+Wire Wire Line
+	3050 3150 3050 3550
+Connection ~ 3050 3550
+Wire Wire Line
+	2800 4850 2800 5000
+Wire Wire Line
+	3750 4850 3750 5000
+Connection ~ 3750 2850
+$Comp
+L Device:R R?
+U 1 1 623E25A7
+P 4150 3650
+F 0 "R?" H 4220 3696 50  0000 L CNN
+F 1 "10k" H 4220 3605 50  0000 L CNN
+F 2 "" V 4080 3650 50  0001 C CNN
+F 3 "~" H 4150 3650 50  0001 C CNN
+	1    4150 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 623E2946
+P 4150 4700
+F 0 "R?" H 4220 4746 50  0000 L CNN
+F 1 "10k" H 4220 4655 50  0000 L CNN
+F 2 "" V 4080 4700 50  0001 C CNN
+F 3 "~" H 4150 4700 50  0001 C CNN
+	1    4150 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4150 4550 4150 4400
+Connection ~ 4150 4400
+Wire Wire Line
+	4150 4400 4150 3800
+Wire Wire Line
+	4150 4850 4150 5000
+Wire Wire Line
+	4150 2850 4150 3500
+Wire Wire Line
+	3750 2850 4150 2850
+Text Notes 3500 2750 0    50   ~ 0
+Vo= ( (R4+R5) / R5 ) * Vz
+$Comp
+L power:GND #PWR?
+U 1 1 623E76A3
+P 2800 5000
+F 0 "#PWR?" H 2800 4750 50  0001 C CNN
+F 1 "GND" H 2805 4827 50  0000 C CNN
+F 2 "" H 2800 5000 50  0001 C CNN
+F 3 "" H 2800 5000 50  0001 C CNN
+	1    2800 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 623E8495
+P 3750 5000
+F 0 "#PWR?" H 3750 4750 50  0001 C CNN
+F 1 "GND" H 3755 4827 50  0000 C CNN
+F 2 "" H 3750 5000 50  0001 C CNN
+F 3 "" H 3750 5000 50  0001 C CNN
+	1    3750 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 623E865F
+P 4150 5000
+F 0 "#PWR?" H 4150 4750 50  0001 C CNN
+F 1 "GND" H 4155 4827 50  0000 C CNN
+F 2 "" H 4150 5000 50  0001 C CNN
+F 3 "" H 4150 5000 50  0001 C CNN
+	1    4150 5000
+	1    0    0    -1  
+$EndComp
+Text Label 1550 2850 0    50   ~ 0
+Vin
+Wire Wire Line
+	4150 2850 4800 2850
+Connection ~ 4150 2850
+Text Label 4800 2850 0    50   ~ 0
+Vo
+$EndSCHEMATC

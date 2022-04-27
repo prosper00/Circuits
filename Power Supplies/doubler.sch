@@ -1,0 +1,172 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:Transformer_1P_1S T?
+U 1 1 623CCB44
+P 3050 2700
+F 0 "T?" H 3050 3081 50  0000 C CNN
+F 1 "Transformer_1P_1S" H 3050 2990 50  0000 C CNN
+F 2 "" H 3050 2700 50  0001 C CNN
+F 3 "~" H 3050 2700 50  0001 C CNN
+	1    3050 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C?
+U 1 1 623CE6F5
+P 3750 2500
+F 0 "C?" V 3495 2500 50  0000 C CNN
+F 1 "1000u" V 3586 2500 50  0000 C CNN
+F 2 "" H 3788 2350 50  0001 C CNN
+F 3 "~" H 3750 2500 50  0001 C CNN
+	1    3750 2500
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:CP C?
+U 1 1 623CEB5D
+P 3750 3300
+F 0 "C?" V 3495 3300 50  0000 C CNN
+F 1 "1000u" V 3586 3300 50  0000 C CNN
+F 2 "" H 3788 3150 50  0001 C CNN
+F 3 "~" H 3750 3300 50  0001 C CNN
+	1    3750 3300
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:CP C?
+U 1 1 623CF3BE
+P 4500 2700
+F 0 "C?" H 4382 2746 50  0000 R CNN
+F 1 "1000u" H 4382 2655 50  0000 R CNN
+F 2 "" H 4538 2550 50  0001 C CNN
+F 3 "~" H 4500 2700 50  0001 C CNN
+	1    4500 2700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:CP C?
+U 1 1 623CFDC5
+P 4500 3100
+F 0 "C?" H 4382 3146 50  0000 R CNN
+F 1 "1000u" H 4382 3055 50  0000 R CNN
+F 2 "" H 4538 2950 50  0001 C CNN
+F 3 "~" H 4500 3100 50  0001 C CNN
+	1    4500 3100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 623D0472
+P 4250 2500
+F 0 "D?" H 4250 2283 50  0000 C CNN
+F 1 "D" H 4250 2374 50  0000 C CNN
+F 2 "" H 4250 2500 50  0001 C CNN
+F 3 "~" H 4250 2500 50  0001 C CNN
+	1    4250 2500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 623D0C31
+P 4000 2700
+F 0 "D?" V 3954 2780 50  0000 L CNN
+F 1 "D" V 4045 2780 50  0000 L CNN
+F 2 "" H 4000 2700 50  0001 C CNN
+F 3 "~" H 4000 2700 50  0001 C CNN
+	1    4000 2700
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 623D15AE
+P 4000 3100
+F 0 "D?" V 3954 3180 50  0000 L CNN
+F 1 "D" V 4045 3180 50  0000 L CNN
+F 2 "" H 4000 3100 50  0001 C CNN
+F 3 "~" H 4000 3100 50  0001 C CNN
+	1    4000 3100
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 623D19BC
+P 4250 3300
+F 0 "D?" H 4250 3517 50  0000 C CNN
+F 1 "D" H 4250 3426 50  0000 C CNN
+F 2 "" H 4250 3300 50  0001 C CNN
+F 3 "~" H 4250 3300 50  0001 C CNN
+	1    4250 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3450 2900 4000 2900
+Wire Wire Line
+	3450 2500 3550 2500
+Wire Wire Line
+	3900 2500 4000 2500
+Wire Wire Line
+	4000 2500 4000 2550
+Connection ~ 4000 2500
+Wire Wire Line
+	4000 2500 4100 2500
+Wire Wire Line
+	4000 2850 4000 2900
+Connection ~ 4000 2900
+Wire Wire Line
+	4000 2900 4500 2900
+Wire Wire Line
+	4000 2900 4000 2950
+Wire Wire Line
+	3900 3300 4000 3300
+Wire Wire Line
+	4000 3250 4000 3300
+Connection ~ 4000 3300
+Wire Wire Line
+	4000 3300 4100 3300
+Wire Wire Line
+	3600 3300 3550 3300
+Wire Wire Line
+	3550 3300 3550 2500
+Connection ~ 3550 2500
+Wire Wire Line
+	3550 2500 3600 2500
+Wire Wire Line
+	4400 2500 4500 2500
+Wire Wire Line
+	4500 2500 4500 2550
+Wire Wire Line
+	4500 2850 4500 2900
+Connection ~ 4500 2900
+Wire Wire Line
+	4500 2900 6400 2900
+Wire Wire Line
+	4500 2900 4500 2950
+Wire Wire Line
+	4500 3250 4500 3300
+Wire Wire Line
+	4500 3300 4400 3300
+Wire Wire Line
+	4500 3300 5550 3300
+Connection ~ 4500 3300
+Wire Wire Line
+	4500 2500 5550 2500
+Connection ~ 4500 2500
+Text Label 5550 2500 0    50   ~ 0
+2*Vi-150mA
+Text Label 5550 3300 0    50   ~ 0
+-2*Vi-150mA
+$EndSCHEMATC

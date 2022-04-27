@@ -1173,4 +1173,6 @@ Wire Wire Line
 Wire Wire Line
 	6200 2900 6200 3050
 Connection ~ 6200 3050
+Text Notes 5150 3050 0    50   ~ 0
+140mV
 $EndSCHEMATC
